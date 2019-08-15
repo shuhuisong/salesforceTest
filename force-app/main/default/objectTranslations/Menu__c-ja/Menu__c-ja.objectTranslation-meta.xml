@@ -599,6 +599,10 @@
         <name>AccountLock</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- 成約にするには請求書住所、請求書担当を入力してください。 --></errorMessage>
+        <name>menu_status</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- 商談状態を成約にしてください --></errorMessage>
         <name>menu_status_check</name>
     </validationRules>
