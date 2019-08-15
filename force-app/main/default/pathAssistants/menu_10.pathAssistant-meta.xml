@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Menu__c</entityName>
+    <fieldName>menu_status__c</fieldName>
+    <masterLabel>メニューパス</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;成約したがメニューや金額が具体的にきまっていないなど&lt;/p&gt;</info>
+        <picklistValueName>内定</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;「あどまど」に取り込むデータ。請求書が発行されます。&lt;/p&gt;&lt;p&gt;本決まりでないときには内定を選んで下さい&lt;/p&gt;</info>
+        <picklistValueName>成約</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;成約に7割くらいの確度の高いレベル&lt;/p&gt;</info>
+        <picklistValueName>検討A</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;成約に5分5分の確度中程度のレベル&lt;/p&gt;</info>
+        <picklistValueName>検討B</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;聞かれて出した確度の低いレベル&lt;/p&gt;</info>
+        <picklistValueName>検討C</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>questionnaire</recordTypeName>
+</PathAssistant>

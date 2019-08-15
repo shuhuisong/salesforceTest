@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KokyakuNewContractOrLatestBillDate__c</fullName>
+    <description>&quot;YYYYMMDD&quot;で入る</description>
+    <externalId>false</externalId>
+    <inlineHelpText>&quot;YYYYMMDD&quot;で入る</inlineHelpText>
+    <label>個客番 新契約・最新請求日</label>
+    <length>8</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

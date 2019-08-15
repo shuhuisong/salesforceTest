@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomOpportunityLayout</fullName>
+    <fields>Name</fields>
+    <fields>clent_name__c</fields>
+    <fields>agency_name__c</fields>
+    <fields>customers_type__c</fields>
+    <fields>sales_staff__c</fields>
+    <fields>seisaku_director__c</fields>
+    <label>C商談コンパクトレイアウト</label>
+</CompactLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>invoice_person_depertment__c</fullName>
+    <externalId>false</externalId>
+    <formula>invoice_person__r.Department</formula>
+    <label>請求書送付先担当者_部署</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

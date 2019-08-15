@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 案件 --></label>
+    <name>ProjectType__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アスペクト</masterLabel>
+        <translation><!-- アスペクト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>タイアップ</masterLabel>
+        <translation><!-- タイアップ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ブランドコンテンツ</masterLabel>
+        <translation><!-- ブランドコンテンツ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>メールマガジン</masterLabel>
+        <translation><!-- メールマガジン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>広告特集</masterLabel>
+        <translation><!-- 広告特集 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>純広告</masterLabel>
+        <translation><!-- 純広告 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

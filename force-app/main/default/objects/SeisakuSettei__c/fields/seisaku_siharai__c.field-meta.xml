@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>seisaku_siharai__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>制作・支払</label>
+    <referenceTo>SeisakuSiharai__c</referenceTo>
+    <relationshipLabel>制作設定</relationshipLabel>
+    <relationshipName>eGBh</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

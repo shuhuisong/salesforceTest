@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>order_menu__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>成約したメニューの積み上げ集計</inlineHelpText>
+    <label>受注メニュー数</label>
+    <summaryFilterItems>
+        <field>Menu__c.menu_status__c</field>
+        <operation>equals</operation>
+        <value>成約</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Menu__c.custom_opportunity__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

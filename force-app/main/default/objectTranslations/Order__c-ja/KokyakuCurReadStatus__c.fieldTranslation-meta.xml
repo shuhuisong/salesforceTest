@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- &quot;現読&quot;か&quot;非読&quot;の2パターン --></help>
+    <label><!-- 個客番 現読ステータス --></label>
+    <name>KokyakuCurReadStatus__c</name>
+</CustomFieldTranslation>

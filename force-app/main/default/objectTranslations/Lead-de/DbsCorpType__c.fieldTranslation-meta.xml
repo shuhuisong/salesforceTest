@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 法人種別（DBメルマガ） --></label>
+    <name>DbsCorpType__c</name>
+    <picklistValues>
+        <masterLabel>学校法人</masterLabel>
+        <translation><!-- 学校法人 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>法人</masterLabel>
+        <translation><!-- 法人 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

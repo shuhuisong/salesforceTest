@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>case_incomplete_list</fullName>
+    <booleanFilter>8 and (1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7))</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>InqSummary__c</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notContain</operation>
+        <value>対応済み</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>カスタマ01|東洋経済ID（新規登録・登録情報変更・退会）,カスタマ02|東洋経済オンライン,カスタマ03|会社四季報オンライン（購入・変更・解約・契約内容）</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>カスタマ04|会社四季報オンライン（掲載内容・操作方法）,カスタマ05|株式ウィークリー,カスタマ06|予約購読者向け記事検索サービス</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>カスタマ07|週刊東洋経済プラス,カスタマ08|電子書籍・電子雑誌,カスタマ09|スマホアプリ等</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>カスタマ10|メールマガジン,カスタマ11|東洋経済スペシャルメールマガジン（有料メルマガ）,カスタマ12|広告・アンケートに関するお問い合わせ</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>カスタマ13|その他,カスタマ14|四季報CD-ROM</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>カスタマ問合せフォーム,カスタマ四季報アプリ,カスタマ総務等社内,カスタマその他</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notContain</operation>
+        <value>Undelivered Mail Returned to Sender</value>
+    </filters>
+    <label>【Web】未完了案件</label>
+</ListView>

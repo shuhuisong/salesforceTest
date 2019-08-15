@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 法人格の位置 --></label>
+    <name>CorpStatusPosition__c</name>
+    <picklistValues>
+        <masterLabel>前</masterLabel>
+        <translation><!-- 前 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>後</masterLabel>
+        <translation><!-- 後 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MailCheck__c</fullName>
+    <description>個人取引先【メール(外部ID)セット】のワークフローの異常を検知するレポート用</description>
+    <externalId>false</externalId>
+    <formula>IF( Email = MailExternalIdCopy__c ,0,1)</formula>
+    <label>メール一致検証用</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

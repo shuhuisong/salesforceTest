@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>メニュー</value>
+    </caseValues>
+    <layouts>
+        <layout>DMPレポーティング</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- WEBレポート --></label>
+            <section>WEBレポート</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください --></label>
+            <section>表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>WEB</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- WEBレポート --></label>
+            <section>WEBレポート</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー詳細 --></label>
+            <section>メニュー詳細</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください --></label>
+            <section>表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>その他</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- WEBレポート --></label>
+            <section>WEBレポート</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>アンケート</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- WEBレポート --></label>
+            <section>WEBレポート</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>カスタム</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>スクール</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>セミナー</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ブースト</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- WEBレポート --></label>
+            <section>WEBレポート</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>抜刷</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- WEBレポート --></label>
+            <section>WEBレポート</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください --></label>
+            <section>表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>雑誌</layout>
+        <sections>
+            <label><!-- PV管理 --></label>
+            <section>PV管理</section>
+        </sections>
+        <sections>
+            <label><!-- WEBレポート --></label>
+            <section>WEBレポート</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- キャンペーン管理 --></label>
+            <section>キャンペーン管理</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- タグ --></label>
+            <section>タグ</section>
+        </sections>
+        <sections>
+            <label><!-- メニュー情報 --></label>
+            <section>メニュー情報</section>
+        </sections>
+        <sections>
+            <label><!-- リード管理 --></label>
+            <section>リード管理</section>
+        </sections>
+        <sections>
+            <label><!-- 制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。 --></label>
+            <section>制作アサイン　※制作アサインは保存後のメニュー詳細ページの右上から依頼してください。 依頼すると自動的に各メニューにアサインフラグがつきます。</section>
+        </sections>
+        <sections>
+            <label><!-- 料金 --></label>
+            <section>料金</section>
+        </sections>
+        <sections>
+            <label><!-- 枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。 --></label>
+            <section>枠予約　※枠予約は保存後のメニュー詳細ページの右上から依頼してください。</section>
+        </sections>
+        <sections>
+            <label><!-- 表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください --></label>
+            <section>表示　※メニューIDは保存後にIDを採番するので新規登録時は*を入れてください</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書 --></label>
+            <section>請求書</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- 制作アサイン --></label>
+        <name>seisaku</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- 04:DMPレポーティング --></label>
+        <name>DMP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 03:WEBその他 --></label>
+        <name>WEB_other</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 05:ブースト --></label>
+        <name>boost</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 09:カスタム --></label>
+        <name>custom</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 06:抜刷 --></label>
+        <name>nukizuri</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 11:その他 --></label>
+        <name>other</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 10:アンケート --></label>
+        <name>questionnaire</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 08:スクール --></label>
+        <name>school</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 07:セミナー --></label>
+        <name>seminar</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 02:WEB --></label>
+        <name>web</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 01:雑誌 --></label>
+        <name>zassi</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 取引禁止のクライアントです。 --></errorMessage>
+        <name>AccountLock</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 商談状態を成約にしてください --></errorMessage>
+        <name>menu_status_check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ga_link --></label>
+        <name>ga_link</name>
+    </webLinks>
+</CustomObjectTranslation>

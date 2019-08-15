@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Marketo Sales Insight --></label>
+            <section>Marketo Sales Insight</section>
+        </sections>
+        <sections>
+            <label><!-- 管理情報(Marketo) --></label>
+            <section>管理情報(Marketo)</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email --></label>
+        <name>mkto_si__Send_Marketo_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

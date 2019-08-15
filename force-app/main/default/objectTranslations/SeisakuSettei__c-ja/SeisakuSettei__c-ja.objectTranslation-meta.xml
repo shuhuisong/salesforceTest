@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>制作設定</value>
+    </caseValues>
+    <layouts>
+        <layout>制作設定レイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 制作情報 --></label>
+            <section>制作情報</section>
+        </sections>
+        <sections>
+            <label><!-- 制作設定 --></label>
+            <section>制作設定</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- 取引禁止のクライアントです。 --></errorMessage>
+        <name>AccountLock</name>
+    </validationRules>
+</CustomObjectTranslation>

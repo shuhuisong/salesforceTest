@@ -1,0 +1,11 @@
+新規ケースが登録されました。
+
+
+件名：{!Case.Subject}
+所有者：{!Case.OwnerFullName}
+発生源：{!Case.Origin}
+優先度：{!Case.Priority}
+
+
+ケース詳細：
+{!Case.Link}

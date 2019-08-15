@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- trueにするとメール送信されます --></help>
+    <label><!-- 制作アサインメール送信 --></label>
+    <name>seisakuassign__c</name>
+</CustomFieldTranslation>

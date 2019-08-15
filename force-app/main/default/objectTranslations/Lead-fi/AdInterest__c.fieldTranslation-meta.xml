@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 関心事（広告） --></label>
+    <name>AdInterest__c</name>
+    <picklistValues>
+        <masterLabel>カスタム出版</masterLabel>
+        <translation><!-- カスタム出版 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>セミナー</masterLabel>
+        <translation><!-- セミナー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>デジタル広告（東洋経済オンライン、会社四季報オンライン）</masterLabel>
+        <translation><!-- デジタル広告（東洋経済オンライン、会社四季報オンライン） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>雑誌広告（週刊東洋経済、会社四季報）</masterLabel>
+        <translation><!-- 雑誌広告（週刊東洋経済、会社四季報） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

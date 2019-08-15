@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- メニュー名 --></label>
+    <name>menu_type__c</name>
+    <picklistValues>
+        <masterLabel>DMPレポーティング</masterLabel>
+        <translation><!-- DMPレポーティング --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDF</masterLabel>
+        <translation><!-- PDF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WEB</masterLabel>
+        <translation><!-- WEB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アンケート</masterLabel>
+        <translation><!-- アンケート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オンライン抜刷</masterLabel>
+        <translation><!-- オンライン抜刷 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>カスタム書籍制作</masterLabel>
+        <translation><!-- カスタム書籍制作 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>カスタム雑誌制作</masterLabel>
+        <translation><!-- カスタム雑誌制作 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ツール制作</masterLabel>
+        <translation><!-- ツール制作 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ブースト</masterLabel>
+        <translation><!-- ブースト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>メールタイアップ</masterLabel>
+        <translation><!-- メールタイアップ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>写真・画像２次使用料</masterLabel>
+        <translation><!-- 写真・画像２次使用料 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>受講料</masterLabel>
+        <translation><!-- 受講料 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>同梱</masterLabel>
+        <translation><!-- 同梱 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>就職手帳</masterLabel>
+        <translation><!-- 就職手帳 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>広報誌（PR誌）</masterLabel>
+        <translation><!-- 広報誌（PR誌） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書籍・雑誌購入</masterLabel>
+        <translation><!-- 書籍・雑誌購入 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>本誌抜刷</masterLabel>
+        <translation><!-- 本誌抜刷 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>社史</masterLabel>
+        <translation><!-- 社史 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自主企画</masterLabel>
+        <translation><!-- 自主企画 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>講師派遣</masterLabel>
+        <translation><!-- 講師派遣 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>謝礼</masterLabel>
+        <translation><!-- 謝礼 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>運営（集客含む）</masterLabel>
+        <translation><!-- 運営（集客含む） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>集客</masterLabel>
+        <translation><!-- 集客 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>雑誌</masterLabel>
+        <translation><!-- 雑誌 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>電子書籍</masterLabel>
+        <translation><!-- 電子書籍 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

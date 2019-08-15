@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- えびす会社四季報オンラインをご利用されてみてのご意見、ご感想をお聞かせください。 --></label>
+    <name>EbisuForm08__c</name>
+</CustomFieldTranslation>

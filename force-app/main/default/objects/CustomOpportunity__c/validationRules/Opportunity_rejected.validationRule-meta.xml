@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_rejected</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( rejection_reason__c == null, ISPICKVAL(syoudan_status__c,&#39;否決&#39;))</errorConditionFormula>
+    <errorMessage>否決理由を記入してください</errorMessage>
+</ValidationRule>

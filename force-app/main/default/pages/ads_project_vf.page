@@ -1,0 +1,6 @@
+<apex:page tabStyle="Project__c">
+  <apex:enhancedList type="Project__c"
+             customizable="false" 
+             height="800" 
+             rowsPerPage="50" />
+</apex:page>

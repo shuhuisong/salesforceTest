@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>guarantee_pv_in__c</fullName>
+    <externalId>false</externalId>
+    <label>保証PVの内訳</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>誘導枠のみ（1ページ目）</fullName>
+                <default>false</default>
+                <label>誘導枠のみ（1ページ目）</label>
+            </value>
+            <value>
+                <fullName>誘導枠のみ（全ページ）</fullName>
+                <default>false</default>
+                <label>誘導枠のみ（全ページ）</label>
+            </value>
+            <value>
+                <fullName>全て込み（1ページ目）</fullName>
+                <default>false</default>
+                <label>全て込み（1ページ目）</label>
+            </value>
+            <value>
+                <fullName>全て込み（全ページ）</fullName>
+                <default>false</default>
+                <label>全て込み（全ページ）</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TargetValue_DBSales</fullName>
+    <columns>NAME</columns>
+    <columns>Date__c</columns>
+    <columns>SalesType__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>TargetValue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Project__c.DBSalesTargetRecordType</value>
+    </filters>
+    <label>目標(DB営業)</label>
+    <sharedTo>
+        <role>DataBaseDeptRole</role>
+    </sharedTo>
+</ListView>

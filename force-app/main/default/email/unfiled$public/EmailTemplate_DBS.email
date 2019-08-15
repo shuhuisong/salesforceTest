@@ -1,0 +1,13 @@
+DBS資料請求がありました。
+
+*****************
+作成日：{!CampaignMember.CreatedDate}
+キャンペーン：{!CampaignMember.Campaign}
+社名：{!Contact.CorpName__c}
+氏名：{!CampaignMember.LastName} {!CampaignMember.FirstName}
+メール：{!CampaignMember.Email}
+電話番号:{!CampaignMember.Phone}
+
+レコードページ
+{!CampaignMember.Link}
+*****************

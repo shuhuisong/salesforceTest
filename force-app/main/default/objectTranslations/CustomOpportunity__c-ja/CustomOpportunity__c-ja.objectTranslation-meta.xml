@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>C商談</value>
+    </caseValues>
+    <layouts>
+        <layout>一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 情報(具体的な内容については「日報」のほうで電話、訪問など都度内容を書いてください。) --></label>
+            <section>情報(具体的な内容については「日報」のほうで電話、訪問など都度内容を書いてください。)</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+        <sections>
+            <label><!-- 集計 --></label>
+            <section>集計</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>新規</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 表示　※商談IDは保存後にIDを採番するので新規登録時は*を入れてください --></label>
+            <section>表示　※商談IDは保存後にIDを採番するので新規登録時は*を入れてください</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- 編集 --></label>
+        <name>edit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 新規 --></label>
+        <name>new_opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 取引禁止のクライアントです。 --></errorMessage>
+        <name>AccountLock</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 否決理由を記入してください --></errorMessage>
+        <name>Opportunity_rejected</name>
+    </validationRules>
+</CustomObjectTranslation>

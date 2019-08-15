@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 前付区分 --></label>
+    <name>maetsuke_kubun__c</name>
+    <picklistValues>
+        <masterLabel>ある</masterLabel>
+        <translation><!-- ある --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし</masterLabel>
+        <translation><!-- なし --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

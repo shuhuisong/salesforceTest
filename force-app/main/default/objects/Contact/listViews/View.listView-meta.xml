@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>EbisuTaikaiDate__c</columns>
+    <columns>EbisuDelDate__c</columns>
+    <columns>MarketoNotSync__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MarketoNotSync__c</field>
+        <operation>equals</operation>
+        <value>Y</value>
+    </filters>
+    <label>えびす退会削除除外</label>
+</ListView>

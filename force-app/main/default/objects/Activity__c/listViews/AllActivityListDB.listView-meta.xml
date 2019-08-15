@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllActivityListDB</fullName>
+    <columns>NAME</columns>
+    <columns>ActivityDateDB__c</columns>
+    <columns>AccountNameDB__c</columns>
+    <columns>ContactNameDB__c</columns>
+    <columns>VisitPurpose__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Activity__c.DBSalesRecordType</value>
+    </filters>
+    <label>すべて選択(DB営業)</label>
+    <sharedTo>
+        <role>DataBaseDeptRole</role>
+    </sharedTo>
+</ListView>

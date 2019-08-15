@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 種別 --></label>
+    <name>shubetsu__c</name>
+    <picklistValues>
+        <masterLabel>一次推計</masterLabel>
+        <translation><!-- 一次推計 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予算</masterLabel>
+        <translation><!-- 予算 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>二次推計</masterLabel>
+        <translation><!-- 二次推計 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>実績</masterLabel>
+        <translation><!-- 実績 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

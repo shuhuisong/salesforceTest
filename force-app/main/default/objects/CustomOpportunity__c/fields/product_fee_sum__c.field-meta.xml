@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>product_fee_sum__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>制作費・講師派遣料（税抜、メニュー）の積み上げ集計</inlineHelpText>
+    <label>制作費・講師派遣料（ネット、税抜、商談）</label>
+    <summarizedField>Menu__c.product_fee2__c</summarizedField>
+    <summaryForeignKey>Menu__c.custom_opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>カスタマ問合せ</name>
+    <queueMembers>
+        <users>
+            <user>sfdcuser_csmaster@toyokeizai.co.jp</user>
+            <user>fw_bp@toyokeizai.net</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

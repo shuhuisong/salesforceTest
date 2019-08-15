@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 商材（大分類） --></label>
+    <name>commodity__c</name>
+    <picklistValues>
+        <masterLabel>BtoB</masterLabel>
+        <translation><!-- BtoB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BtoC</masterLabel>
+        <translation><!-- BtoC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コンシューマ</masterLabel>
+        <translation><!-- コンシューマ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ビジネス</masterLabel>
+        <translation><!-- ビジネス --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

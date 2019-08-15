@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- その他条件（目標数値の理由など） --></label>
+    <name>pv_goal_etc__c</name>
+</CustomFieldTranslation>

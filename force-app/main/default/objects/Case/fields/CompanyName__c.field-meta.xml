@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyName__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>問合せ者の企業名を入力してください。
+（取引先・取引先責任者に情報がない場合）</inlineHelpText>
+    <label>企業名</label>
+    <length>80</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

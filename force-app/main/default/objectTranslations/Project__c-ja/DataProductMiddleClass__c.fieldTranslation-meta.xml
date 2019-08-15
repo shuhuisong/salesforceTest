@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- データ商品_中分類 --></label>
+    <name>DataProductMiddleClass__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オール投資</masterLabel>
+        <translation><!-- オール投資 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>一橋ビジネスレビュー</masterLabel>
+        <translation><!-- 一橋ビジネスレビュー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>企業データバンク（基本属性のみ）</masterLabel>
+        <translation><!-- 企業データバンク（基本属性のみ） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>企業データバンク（財務付き）</masterLabel>
+        <translation><!-- 企業データバンク（財務付き） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社プロフィール・テーマ</masterLabel>
+        <translation><!-- 会社プロフィール・テーマ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社四季報</masterLabel>
+        <translation><!-- 会社四季報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社四季報データ</masterLabel>
+        <translation><!-- 会社四季報データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社基本情報</masterLabel>
+        <translation><!-- 会社基本情報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社概要データ</masterLabel>
+        <translation><!-- 会社概要データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社発表予想データ</masterLabel>
+        <translation><!-- 会社発表予想データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>兜町特捜班・マーケットウォッチ</masterLabel>
+        <translation><!-- 兜町特捜班・マーケットウォッチ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>四季報記事・特色・速報</masterLabel>
+        <translation><!-- 四季報記事・特色・速報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>四季報誌面</masterLabel>
+        <translation><!-- 四季報誌面 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>四季報速報</masterLabel>
+        <translation><!-- 四季報速報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>四季報銘柄レポート</masterLabel>
+        <translation><!-- 四季報銘柄レポート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>四季報ＤＶＤ</masterLabel>
+        <translation><!-- 四季報ＤＶＤ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>地域経済データCD-ROM</masterLabel>
+        <translation><!-- 地域経済データCD-ROM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>外資系企業</masterLabel>
+        <translation><!-- 外資系企業 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>外資系企業データ</masterLabel>
+        <translation><!-- 外資系企業データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大型小売店</masterLabel>
+        <translation><!-- 大型小売店 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大型小売店データ</masterLabel>
+        <translation><!-- 大型小売店データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大学情報</masterLabel>
+        <translation><!-- 大学情報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大株主</masterLabel>
+        <translation><!-- 大株主 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大株主データ</masterLabel>
+        <translation><!-- 大株主データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>就職四季報</masterLabel>
+        <translation><!-- 就職四季報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>就職四季報データ</masterLabel>
+        <translation><!-- 就職四季報データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>市場データ</masterLabel>
+        <translation><!-- 市場データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>役員データ</masterLabel>
+        <translation><!-- 役員データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>役員四季報</masterLabel>
+        <translation><!-- 役員四季報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>投資指標データ（予想日次更新）</masterLabel>
+        <translation><!-- 投資指標データ（予想日次更新） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>投資指標データ（予想１期のみ週次更新）</masterLabel>
+        <translation><!-- 投資指標データ（予想１期のみ週次更新） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未上場企業データ</masterLabel>
+        <translation><!-- 未上場企業データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未上場会社版</masterLabel>
+        <translation><!-- 未上場会社版 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>東経オンライン</masterLabel>
+        <translation><!-- 東経オンライン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>東経業種分類データ</masterLabel>
+        <translation><!-- 東経業種分類データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>株主優待データ</masterLabel>
+        <translation><!-- 株主優待データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>株価データ</masterLabel>
+        <translation><!-- 株価データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>株式数データ</masterLabel>
+        <translation><!-- 株式数データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>株式数異動データ</masterLabel>
+        <translation><!-- 株式数異動データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>業績予想データ</masterLabel>
+        <translation><!-- 業績予想データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>業績予想データ（ベンダ経由海外）</masterLabel>
+        <translation><!-- 業績予想データ（ベンダ経由海外） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>決算サマリー情報</masterLabel>
+        <translation><!-- 決算サマリー情報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外進出企業</masterLabel>
+        <translation><!-- 海外進出企業 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外進出企業データ</masterLabel>
+        <translation><!-- 海外進出企業データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>短信有報データ</masterLabel>
+        <translation><!-- 短信有報データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>短信有報データ（ベンダ経由海外）</masterLabel>
+        <translation><!-- 短信有報データ（ベンダ経由海外） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>統計月報</masterLabel>
+        <translation><!-- 統計月報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>臨時増刊</masterLabel>
+        <translation><!-- 臨時増刊 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>財務データダイジェスト版</masterLabel>
+        <translation><!-- 財務データダイジェスト版 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>転換社債・ワラント債データ</masterLabel>
+        <translation><!-- 転換社債・ワラント債データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>週刊東洋経済</masterLabel>
+        <translation><!-- 週刊東洋経済 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>都市データパックデータ</masterLabel>
+        <translation><!-- 都市データパックデータ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>都市データパックデータ(ＤＣＬ・記事ロイヤリティ)</masterLabel>
+        <translation><!-- 都市データパックデータ(ＤＣＬ・記事ロイヤリティ) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>金融ビジネス</masterLabel>
+        <translation><!-- 金融ビジネス --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>関係会社</masterLabel>
+        <translation><!-- 関係会社 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>関係会社データ</masterLabel>
+        <translation><!-- 関係会社データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＣＳＲ</masterLabel>
+        <translation><!-- ＣＳＲ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＣＳＲデータ</masterLabel>
+        <translation><!-- ＣＳＲデータ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＤＣＬ</masterLabel>
+        <translation><!-- ＤＣＬ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＥＳＧオンライン</masterLabel>
+        <translation><!-- ＥＳＧオンライン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＪＣＨ</masterLabel>
+        <translation><!-- ＪＣＨ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＪＣＨ(DCL・記事ロイヤリティ)</masterLabel>
+        <translation><!-- ＪＣＨ(DCL・記事ロイヤリティ) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ｔｈｉｎｋ！</masterLabel>
+        <translation><!-- Ｔｈｉｎｋ！ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

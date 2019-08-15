@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>operating_profit2__c</fullName>
+    <externalId>false</externalId>
+    <formula>total_fee2__c - product_cost__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>総額請求金・契約金額（税抜、メニュー）―制作にかかった費用（メニュー）</inlineHelpText>
+    <label>営業利益（税抜、メニュー）</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

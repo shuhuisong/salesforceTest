@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TodaysData</fullName>
+    <columns>NAME</columns>
+    <columns>IsMarketoMerged__c</columns>
+    <columns>SrcSfId__c</columns>
+    <columns>DstSfId__c</columns>
+    <columns>LastApiMergedDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>今日のデータ</label>
+</ListView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 請求書住所について請求書住所、①～⑤を選び保存してください。 --></help>
+    <label><!-- 請求書送付先住所選択 --></label>
+    <name>invoice_address_list__c</name>
+    <picklistValues>
+        <masterLabel>①</masterLabel>
+        <translation><!-- ① --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>②</masterLabel>
+        <translation><!-- ② --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>③</masterLabel>
+        <translation><!-- ③ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>④</masterLabel>
+        <translation><!-- ④ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>⑤</masterLabel>
+        <translation><!-- ⑤ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>請求先住所</masterLabel>
+        <translation><!-- 請求先住所 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

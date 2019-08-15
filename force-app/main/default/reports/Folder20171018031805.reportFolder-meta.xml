@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>sunbridge@toyokeizai.co.jp</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>tkpf_admin@toyokeizai.co.jp</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>データ管理用</name>
+</ReportFolder>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 訪問目的 --></label>
+    <name>VisitPurpose__c</name>
+    <picklistValues>
+        <masterLabel>契約</masterLabel>
+        <translation><!-- 契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>対応</masterLabel>
+        <translation><!-- 対応 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>挨拶</masterLabel>
+        <translation><!-- 挨拶 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>提案</masterLabel>
+        <translation><!-- 提案 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

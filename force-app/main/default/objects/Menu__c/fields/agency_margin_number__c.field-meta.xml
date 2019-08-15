@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agency_margin_number__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(agency_margin__c),
+&#39;直&#39;,1,
+&#39;0％&#39;,0,
+&#39;15％&#39;,0.15,
+&#39;20％&#39;,0.20,
+&#39;30％&#39;,0.30,
+&#39;40％&#39;,0.40,
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>代理店マージン(数値)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

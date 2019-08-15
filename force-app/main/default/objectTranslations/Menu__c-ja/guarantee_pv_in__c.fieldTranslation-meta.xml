@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 保証PVの内訳 --></label>
+    <name>guarantee_pv_in__c</name>
+    <picklistValues>
+        <masterLabel>全て込み（1ページ目）</masterLabel>
+        <translation><!-- 全て込み（1ページ目） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>全て込み（全ページ）</masterLabel>
+        <translation><!-- 全て込み（全ページ） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誘導枠のみ（1ページ目）</masterLabel>
+        <translation><!-- 誘導枠のみ（1ページ目） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誘導枠のみ（全ページ）</masterLabel>
+        <translation><!-- 誘導枠のみ（全ページ） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

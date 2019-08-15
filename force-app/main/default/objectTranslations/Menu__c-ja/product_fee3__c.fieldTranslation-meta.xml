@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 制作費・講師派遣料（税抜、メニュー）×（1+消費税率） --></help>
+    <label><!-- 制作費・講師派遣料（税込、メニュー） --></label>
+    <name>product_fee3__c</name>
+</CustomFieldTranslation>

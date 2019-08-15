@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 広告営業担当 --></label>
+    <name>sales_staff__c</name>
+    <picklistValues>
+        <masterLabel>佐藤　幹朗</masterLabel>
+        <translation><!-- 佐藤　幹朗 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>原　野枝</masterLabel>
+        <translation><!-- 原　野枝 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>小林　玉枝</masterLabel>
+        <translation><!-- 小林　玉枝 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>尾登　雄平</masterLabel>
+        <translation><!-- 尾登　雄平 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>山内　光之</masterLabel>
+        <translation><!-- 山内　光之 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>斎藤　治子</masterLabel>
+        <translation><!-- 斎藤　治子 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新津　尚男</masterLabel>
+        <translation><!-- 新津　尚男 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>星野　はる香</masterLabel>
+        <translation><!-- 星野　はる香 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>本多　正典</masterLabel>
+        <translation><!-- 本多　正典 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>林　政孝</masterLabel>
+        <translation><!-- 林　政孝 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>瓦野　晋治</masterLabel>
+        <translation><!-- 瓦野　晋治 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>田中　健一</masterLabel>
+        <translation><!-- 田中　健一 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>田邊　真男</masterLabel>
+        <translation><!-- 田邊　真男 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>白川　岳史</masterLabel>
+        <translation><!-- 白川　岳史 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>進藤　貴史</masterLabel>
+        <translation><!-- 進藤　貴史 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>鈴木　奏子</masterLabel>
+        <translation><!-- 鈴木　奏子 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdInterest__c</fullName>
+    <externalId>false</externalId>
+    <label>関心事（広告）</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>デジタル広告（東洋経済オンライン、会社四季報オンライン）</fullName>
+                <default>false</default>
+                <label>デジタル広告（東洋経済オンライン、会社四季報オンライン）</label>
+            </value>
+            <value>
+                <fullName>雑誌広告（週刊東洋経済、会社四季報）</fullName>
+                <default>false</default>
+                <label>雑誌広告（週刊東洋経済、会社四季報）</label>
+            </value>
+            <value>
+                <fullName>セミナー</fullName>
+                <default>false</default>
+                <label>セミナー</label>
+            </value>
+            <value>
+                <fullName>カスタム出版</fullName>
+                <default>false</default>
+                <label>カスタム出版</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

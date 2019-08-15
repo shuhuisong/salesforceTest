@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cost__c</fullName>
+    <externalId>false</externalId>
+    <formula>product_cost__c  +  common_amount_divede__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>費用（税別）＋共通費（按分後）</inlineHelpText>
+    <label>制作費（税別）＋共通費（按分後）</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

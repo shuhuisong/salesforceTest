@@ -1,0 +1,6 @@
+<apex:page tabStyle="Activity__c">
+  <apex:enhancedList type="Activity__c"
+             customizable="false" 
+             height="800" 
+             rowsPerPage="50" />
+</apex:page>

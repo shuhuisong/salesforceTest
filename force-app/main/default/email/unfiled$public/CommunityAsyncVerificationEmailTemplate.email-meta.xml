@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>非同期メール確認が呼び出されたときにユーザが受信するメールメッセージ。</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>コミュニティ: ユーザ確認メール</name>
+    <style>none</style>
+    <subject>{!Community.Name} で ID を確認してください</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

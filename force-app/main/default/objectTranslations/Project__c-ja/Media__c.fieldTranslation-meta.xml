@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 媒体 --></label>
+    <name>Media__c</name>
+    <picklistValues>
+        <masterLabel>Think</masterLabel>
+        <translation><!-- Think --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>カスタム出版</masterLabel>
+        <translation><!-- カスタム出版 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>セミナー</masterLabel>
+        <translation><!-- セミナー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ハレタル</masterLabel>
+        <translation><!-- ハレタル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>一橋ビジネスレビュー</masterLabel>
+        <translation><!-- 一橋ビジネスレビュー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社四季報</masterLabel>
+        <translation><!-- 会社四季報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社四季報プロ500</masterLabel>
+        <translation><!-- 会社四季報プロ500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社四季報ワイド版</masterLabel>
+        <translation><!-- 会社四季報ワイド版 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社四季報先取り</masterLabel>
+        <translation><!-- 会社四季報先取り --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社四季報未上場版</masterLabel>
+        <translation><!-- 会社四季報未上場版 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>名古屋臨時増刊号</masterLabel>
+        <translation><!-- 名古屋臨時増刊号 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大学臨時増刊号</masterLabel>
+        <translation><!-- 大学臨時増刊号 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>就職四季報シリーズ</masterLabel>
+        <translation><!-- 就職四季報シリーズ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>東洋経済オンライン</masterLabel>
+        <translation><!-- 東洋経済オンライン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>生保・損保臨時増刊号</masterLabel>
+        <translation><!-- 生保・損保臨時増刊号 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>週刊東洋経済</masterLabel>
+        <translation><!-- 週刊東洋経済 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

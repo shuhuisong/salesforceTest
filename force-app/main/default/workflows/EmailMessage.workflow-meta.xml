@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CaseStatusUpdate</fullName>
+        <description>ケースでの返信に対し、問合せ者から再質問があった際に、ケースの状況を再質問ありに変更します</description>
+        <field>Status</field>
+        <literalValue>再質問あり</literalValue>
+        <name>ケース状況更新：問合せ再質問時</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>ケース状況更新%EF%BC%9A問合せ再質問時</fullName>
+        <actions>
+            <name>CaseStatusUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>対応済み</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.Incoming</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>ケースでの返信に対し、問合せ者が再質問をした際にケースの状況を自動更新します</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

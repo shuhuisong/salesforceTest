@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 特集名 --></label>
+    <name>FeatureName__c</name>
+    <picklistValues>
+        <masterLabel>120周年</masterLabel>
+        <translation><!-- 120周年 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AI</masterLabel>
+        <translation><!-- AI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP</masterLabel>
+        <translation><!-- BCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BELS</masterLabel>
+        <translation><!-- BELS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRM</masterLabel>
+        <translation><!-- CRM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MICE</masterLabel>
+        <translation><!-- MICE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIMロックフリー</masterLabel>
+        <translation><!-- SIMロックフリー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オフィス</masterLabel>
+        <translation><!-- オフィス --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オフィス移転</masterLabel>
+        <translation><!-- オフィス移転 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>クラウド</masterLabel>
+        <translation><!-- クラウド --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>サービス付き高齢者住宅</masterLabel>
+        <translation><!-- サービス付き高齢者住宅 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ストレスチェック制度</masterLabel>
+        <translation><!-- ストレスチェック制度 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ビジネストラベル</masterLabel>
+        <translation><!-- ビジネストラベル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ビッグデータ</masterLabel>
+        <translation><!-- ビッグデータ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>マイナンバー制度</masterLabel>
+        <translation><!-- マイナンバー制度 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>マンション建替</masterLabel>
+        <translation><!-- マンション建替 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ワークスタイル</masterLabel>
+        <translation><!-- ワークスタイル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事業承継</masterLabel>
+        <translation><!-- 事業承継 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>企業誘致</masterLabel>
+        <translation><!-- 企業誘致 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>住宅</masterLabel>
+        <translation><!-- 住宅 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>情報セキュリティ</masterLabel>
+        <translation><!-- 情報セキュリティ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>採用支援</masterLabel>
+        <translation><!-- 採用支援 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>有力企業ガイド</masterLabel>
+        <translation><!-- 有力企業ガイド --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>株主優待</masterLabel>
+        <translation><!-- 株主優待 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>理工系大学</masterLabel>
+        <translation><!-- 理工系大学 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>相続</masterLabel>
+        <translation><!-- 相続 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>省エネ・節電</masterLabel>
+        <translation><!-- 省エネ・節電 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>睡眠</masterLabel>
+        <translation><!-- 睡眠 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>英語</masterLabel>
+        <translation><!-- 英語 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>資産運用</masterLabel>
+        <translation><!-- 資産運用 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>間接材コスト削減</masterLabel>
+        <translation><!-- 間接材コスト削減 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>防災</masterLabel>
+        <translation><!-- 防災 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 抜刷サイズ・開き方 --></label>
+    <name>nukizuri_size__c</name>
+    <picklistValues>
+        <masterLabel>A4変形右開き（週間東洋経済デフォルト）</masterLabel>
+        <translation><!-- A4変形右開き（週間東洋経済デフォルト） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A4変形左開き</masterLabel>
+        <translation><!-- A4変形左開き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A4正寸右開き</masterLabel>
+        <translation><!-- A4正寸右開き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A4正寸左開き（オンラインデフォルト）</masterLabel>
+        <translation><!-- A4正寸左開き（オンラインデフォルト） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

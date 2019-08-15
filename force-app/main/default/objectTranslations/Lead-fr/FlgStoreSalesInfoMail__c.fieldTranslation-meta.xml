@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ストア発売通知メール(四季報シリーズ) --></label>
+    <name>FlgStoreSalesInfoMail__c</name>
+    <picklistValues>
+        <masterLabel>N</masterLabel>
+        <translation><!-- N --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Y</masterLabel>
+        <translation><!-- Y --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

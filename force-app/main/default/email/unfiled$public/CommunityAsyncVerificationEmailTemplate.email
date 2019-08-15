@@ -1,0 +1,8 @@
+{!Receiving_User.FirstName} 様
+
+{!Community.Name} のメールアドレスを確認するために次の URL をクリックしてください:
+
+{!EmailVerify.Url}
+
+よろしくお願いします。
+{!Organization.Name}

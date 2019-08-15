@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 大分類 --></label>
+    <name>type__c</name>
+    <picklistValues>
+        <masterLabel>01:雑誌</masterLabel>
+        <translation><!-- 01:雑誌 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02:WEB</masterLabel>
+        <translation><!-- 02:WEB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03:WEBその他</masterLabel>
+        <translation><!-- 03:WEBその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04:DMPレポーティング</masterLabel>
+        <translation><!-- 04:DMPレポーティング --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>05:ブースト</masterLabel>
+        <translation><!-- 05:ブースト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>06:抜刷</masterLabel>
+        <translation><!-- 06:抜刷 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>07:セミナー</masterLabel>
+        <translation><!-- 07:セミナー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08:スクール</masterLabel>
+        <translation><!-- 08:スクール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>09:カスタム</masterLabel>
+        <translation><!-- 09:カスタム --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10:アンケート</masterLabel>
+        <translation><!-- 10:アンケート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11:その他</masterLabel>
+        <translation><!-- 11:その他 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

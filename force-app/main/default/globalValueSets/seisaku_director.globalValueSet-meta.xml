@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>萩生田　啓介</fullName>
+        <default>false</default>
+        <label>萩生田　啓介</label>
+    </customValue>
+    <customValue>
+        <fullName>細川　めぐみ</fullName>
+        <default>false</default>
+        <label>細川　めぐみ</label>
+    </customValue>
+    <customValue>
+        <fullName>新井　泰嗣</fullName>
+        <default>false</default>
+        <label>新井　泰嗣</label>
+    </customValue>
+    <customValue>
+        <fullName>平島　隆広</fullName>
+        <default>false</default>
+        <label>平島　隆広</label>
+    </customValue>
+    <customValue>
+        <fullName>髙橋　真由</fullName>
+        <default>false</default>
+        <label>髙橋　真由</label>
+    </customValue>
+    <customValue>
+        <fullName>内田　賀子</fullName>
+        <default>false</default>
+        <label>内田　賀子</label>
+    </customValue>
+    <customValue>
+        <fullName>山川　淳平</fullName>
+        <default>false</default>
+        <label>山川　淳平</label>
+    </customValue>
+    <customValue>
+        <fullName>岡部　のぞみ</fullName>
+        <default>false</default>
+        <label>岡部　のぞみ</label>
+    </customValue>
+    <customValue>
+        <fullName>椿　萌</fullName>
+        <default>false</default>
+        <label>椿　萌</label>
+    </customValue>
+    <customValue>
+        <fullName>晏　暁丹</fullName>
+        <default>false</default>
+        <label>晏　暁丹</label>
+    </customValue>
+    <customValue>
+        <fullName>吉田　明日香</fullName>
+        <default>false</default>
+        <label>吉田　明日香</label>
+    </customValue>
+    <customValue>
+        <fullName>長谷川　典子</fullName>
+        <default>false</default>
+        <label>長谷川　典子</label>
+    </customValue>
+    <customValue>
+        <fullName>佐藤　晋子</fullName>
+        <default>false</default>
+        <label>佐藤　晋子</label>
+    </customValue>
+    <customValue>
+        <fullName>中塚　一晶</fullName>
+        <default>false</default>
+        <label>中塚　一晶</label>
+    </customValue>
+    <customValue>
+        <fullName>佐藤　美由季</fullName>
+        <default>false</default>
+        <label>佐藤　美由季</label>
+    </customValue>
+    <customValue>
+        <fullName>清末　真司</fullName>
+        <default>false</default>
+        <label>清末　真司</label>
+    </customValue>
+    <customValue>
+        <fullName>安瀨　伸一</fullName>
+        <default>false</default>
+        <label>安瀨　伸一</label>
+    </customValue>
+    <customValue>
+        <fullName>井坂　康志</fullName>
+        <default>false</default>
+        <label>井坂　康志</label>
+    </customValue>
+    <customValue>
+        <fullName>藤田　万弓</fullName>
+        <default>false</default>
+        <label>藤田　万弓</label>
+    </customValue>
+    <customValue>
+        <fullName>中野　麻衣子</fullName>
+        <default>false</default>
+        <label>中野　麻衣子</label>
+    </customValue>
+    <customValue>
+        <fullName>磯部　則光</fullName>
+        <default>false</default>
+        <label>磯部　則光</label>
+    </customValue>
+    <customValue>
+        <fullName>亀井　理華</fullName>
+        <default>false</default>
+        <label>亀井　理華</label>
+    </customValue>
+    <customValue>
+        <fullName>原田　亜弓</fullName>
+        <default>false</default>
+        <label>原田　亜弓</label>
+    </customValue>
+    <customValue>
+        <fullName>勝木　奈美子</fullName>
+        <default>false</default>
+        <label>勝木　奈美子</label>
+    </customValue>
+    <customValue>
+        <fullName>大久保　幹人</fullName>
+        <default>false</default>
+        <label>大久保　幹人</label>
+    </customValue>
+    <customValue>
+        <fullName>阪西　敦子</fullName>
+        <default>false</default>
+        <label>阪西　敦子</label>
+    </customValue>
+    <customValue>
+        <fullName>田邊　真男</fullName>
+        <default>false</default>
+        <label>田邊　真男</label>
+    </customValue>
+    <customValue>
+        <fullName>岩澤　望</fullName>
+        <default>false</default>
+        <label>岩澤　望</label>
+    </customValue>
+    <customValue>
+        <fullName>杉山　奈々恵</fullName>
+        <default>false</default>
+        <label>杉山　奈々恵</label>
+    </customValue>
+    <customValue>
+        <fullName>新田　萌夏</fullName>
+        <default>false</default>
+        <label>新田　萌夏</label>
+    </customValue>
+    <customValue>
+        <fullName>濵野　沙耶</fullName>
+        <default>false</default>
+        <label>濵野　沙耶</label>
+    </customValue>
+    <customValue>
+        <fullName>赤尾　万里</fullName>
+        <default>false</default>
+        <label>赤尾　万里</label>
+    </customValue>
+    <customValue>
+        <fullName>角　亜矢子</fullName>
+        <default>false</default>
+        <label>角　亜矢子</label>
+    </customValue>
+    <customValue>
+        <fullName>菅原　友美</fullName>
+        <default>false</default>
+        <label>菅原　友美</label>
+    </customValue>
+    <customValue>
+        <fullName>山岡　正治</fullName>
+        <default>false</default>
+        <label>山岡　正治</label>
+    </customValue>
+    <masterLabel>制作担当</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

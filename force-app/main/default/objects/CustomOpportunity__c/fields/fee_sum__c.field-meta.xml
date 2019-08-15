@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fee_sum__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>掲載料金・契約金請求金額（税別、メニュー）の積み上げ集計</inlineHelpText>
+    <label>掲載料金・契約金請求金額（グロス、税別、商談）</label>
+    <summarizedField>Menu__c.magazine_fee_billing_amount__c</summarizedField>
+    <summaryForeignKey>Menu__c.custom_opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KokyakuNewOrContiInvStandardTime__c</fullName>
+    <description>&quot;YYYYMM&quot;で入る</description>
+    <externalId>false</externalId>
+    <inlineHelpText>&quot;YYYYMM&quot;で入る</inlineHelpText>
+    <label>個客番 新契約・継続案内基準年月</label>
+    <length>6</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

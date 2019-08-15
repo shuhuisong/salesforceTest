@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 掲載料金・契約金請求金額（税別、メニュー）＋制作費・講師派遣料（税別、メニュー） --></help>
+    <label><!-- 総額請求金・契約金額（税抜、メニュー） --></label>
+    <name>total_fee2__c</name>
+</CustomFieldTranslation>

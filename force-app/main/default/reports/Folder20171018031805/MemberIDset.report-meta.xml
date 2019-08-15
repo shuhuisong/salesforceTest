@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>RECORDTYPE</field>
+    </columns>
+    <columns>
+        <field>Contact.ToyokeizaiId__c</field>
+    </columns>
+    <columns>
+        <field>Account.ToyokeizaiId__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>PersonAccount.PersonAccount</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.ToyokeizaiId__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value/>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.ToyokeizaiId__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value/>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>【データ管理】個人取引先　会員IDセットチェック</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-10-18</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 制作担当 --></label>
+    <name>seisaku_director__c</name>
+    <relationshipLabel><!-- C商談 --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- その他制作の進行ステータス --></help>
+    <label><!-- 進行ステータス(その他制作・支払) --></label>
+    <name>product_status2__c</name>
+    <picklistValues>
+        <masterLabel>制作中</masterLabel>
+        <translation><!-- 制作中 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>発注</masterLabel>
+        <translation><!-- 発注 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>納品</masterLabel>
+        <translation><!-- 納品 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

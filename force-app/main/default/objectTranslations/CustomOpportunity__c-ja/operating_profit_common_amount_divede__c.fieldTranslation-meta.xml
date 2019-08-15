@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 営業利益・共通費込（税抜、メニュー）の積み上げ集計 --></help>
+    <label><!-- 営業利益・共通費込（税抜、商談） --></label>
+    <name>operating_profit_common_amount_divede__c</name>
+</CustomFieldTranslation>

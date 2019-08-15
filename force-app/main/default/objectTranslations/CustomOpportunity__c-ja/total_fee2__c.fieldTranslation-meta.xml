@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 総額請求金・契約金額（税抜、メニュー）の積み上げ集計 --></help>
+    <label><!-- 総額請求金・契約金額（税抜、商談） --></label>
+    <name>total_fee2__c</name>
+</CustomFieldTranslation>

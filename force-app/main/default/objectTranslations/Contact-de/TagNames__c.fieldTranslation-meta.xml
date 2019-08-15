@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sansan Salesforce連携項目 --></help>
+    <label><!-- Sansanタグ --></label>
+    <name>TagNames__c</name>
+    <picklistValues>
+        <masterLabel>広告営業</masterLabel>
+        <translation><!-- 広告営業 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未設定</masterLabel>
+        <translation><!-- 未設定 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

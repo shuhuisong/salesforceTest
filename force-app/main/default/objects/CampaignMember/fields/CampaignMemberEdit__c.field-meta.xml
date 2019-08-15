@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignMemberEdit__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&#39;/&#39; &amp; Id &amp; &#39;/e?retURL=%2F00O7F00000AnzMiUAJ&#39;, &#39;編集&#39;,&#39;_self&#39; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>編集</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

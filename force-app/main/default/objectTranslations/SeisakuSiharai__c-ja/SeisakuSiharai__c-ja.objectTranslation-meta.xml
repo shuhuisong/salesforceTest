@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>制作・支払</value>
+    </caseValues>
+    <layouts>
+        <layout>DMPレポーティング一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払関係 --></label>
+            <section>支払関係</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>WEBその他一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払関係 --></label>
+            <section>支払関係</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>WEB一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払関係 --></label>
+            <section>支払関係</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>その他一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払情報 --></label>
+            <section>支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>アンケート一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費 --></label>
+            <section>共通費</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払関係 --></label>
+            <section>支払関係</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>カスタム一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払関係 --></label>
+            <section>支払関係</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>スクール一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払関係 --></label>
+            <section>支払関係</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>セミナー一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払関係 --></label>
+            <section>支払関係</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ブースト一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払情報 --></label>
+            <section>支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>抜刷一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払情報 --></label>
+            <section>支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>新規</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 表示　※制先・支払IDは保存後にIDを採番するので新規登録時は*を入れてください --></label>
+            <section>表示　※制先・支払IDは保存後にIDを採番するので新規登録時は*を入れてください</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>雑誌一覧</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- 共通費計算用 --></label>
+            <section>共通費計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 制作・支払情報 --></label>
+            <section>制作・支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 支払情報 --></label>
+            <section>支払情報</section>
+        </sections>
+        <sections>
+            <label><!-- 表示 --></label>
+            <section>表示</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- 枠予約 --></label>
+        <name>wakuyoyaku</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- 04:DMPレポーティング一覧 --></label>
+        <name>DMP_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 03:Webその他一覧 --></label>
+        <name>WEB_other_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 02:Web一覧 --></label>
+        <name>Web_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 05:ブースト一覧 --></label>
+        <name>boost_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 09:カスタム一覧 --></label>
+        <name>custom_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 00:新規 --></label>
+        <name>new</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 06:抜刷一覧 --></label>
+        <name>nukizuri_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 11:その他一覧 --></label>
+        <name>other_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 10:アンケート一覧 --></label>
+        <name>questionnaire_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 08:スクール一覧 --></label>
+        <name>school_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 07:セミナー一覧 --></label>
+        <name>seminar_view</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 01:雑誌一覧 --></label>
+        <name>zassi_view</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 取引禁止のクライアントです。 --></errorMessage>
+        <name>AccountLock</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- メニューを選択してください --></errorMessage>
+        <name>IsMenuTrue</name>
+    </validationRules>
+</CustomObjectTranslation>

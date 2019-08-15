@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 掲載料金（グロス、税別）×代理店マージン --></help>
+    <label><!-- 代理店手数料（メニュー） --></label>
+    <name>agency_fee__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FormType__c</fullName>
+    <externalId>false</externalId>
+    <label>フォーム種別</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>なし</fullName>
+                <default>true</default>
+                <label>なし</label>
+            </value>
+            <value>
+                <fullName>IQForm</fullName>
+                <default>false</default>
+                <label>IQフォーム</label>
+            </value>
+            <value>
+                <fullName>ebisuMart</fullName>
+                <default>false</default>
+                <label>えびすマート</label>
+            </value>
+            <value>
+                <fullName>shanon</fullName>
+                <default>false</default>
+                <label>シャノン</label>
+            </value>
+            <value>
+                <fullName>Marketo</fullName>
+                <default>false</default>
+                <label>Marketo</label>
+            </value>
+            <value>
+                <fullName>C事業部セミナー 参加申込</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>C事業部セミナー 参加申込</label>
+            </value>
+            <value>
+                <fullName>広告主用フォーム 回答</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>広告主用フォーム 回答</label>
+            </value>
+            <value>
+                <fullName>編集局・マーケ局等 有料セミナー申込</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>編集局・マーケ局等 有料セミナー申込</label>
+            </value>
+            <value>
+                <fullName>編集局・マーケ局等 無料セミナー申込</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>編集局・マーケ局等 無料セミナー申込</label>
+            </value>
+            <value>
+                <fullName>読者アンケート 回答</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>読者アンケート 回答</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

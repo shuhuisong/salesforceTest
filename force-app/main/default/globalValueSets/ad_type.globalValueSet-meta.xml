@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>企画広告（当社製作記事広、特集内純広含む）</fullName>
+        <default>false</default>
+        <label>企画広告（当社製作記事広、特集内純広含む）</label>
+    </customValue>
+    <customValue>
+        <fullName>純広告（持込記事広含む）</fullName>
+        <default>false</default>
+        <label>純広告（持込記事広含む）</label>
+    </customValue>
+    <customValue>
+        <fullName>純広告</fullName>
+        <default>false</default>
+        <label>純広告</label>
+    </customValue>
+    <customValue>
+        <fullName>タイアップ</fullName>
+        <default>false</default>
+        <label>タイアップ</label>
+    </customValue>
+    <customValue>
+        <fullName>メールマガジン</fullName>
+        <default>false</default>
+        <label>メールマガジン</label>
+    </customValue>
+    <masterLabel>広告種類</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

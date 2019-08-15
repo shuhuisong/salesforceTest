@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- えびす上記1で「使いにくかった」を選択した方にお尋ねします。使いにくいと感じた画 --></label>
+    <name>EbisuForm06__c</name>
+</CustomFieldTranslation>

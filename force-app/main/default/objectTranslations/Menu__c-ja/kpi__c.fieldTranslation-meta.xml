@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KPI --></label>
+    <name>kpi__c</name>
+    <picklistValues>
+        <masterLabel>PV保証</masterLabel>
+        <translation><!-- PV保証 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>imp保証</masterLabel>
+        <translation><!-- imp保証 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>リード保証（条件あり）</masterLabel>
+        <translation><!-- リード保証（条件あり） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>リード保証（通常）</masterLabel>
+        <translation><!-- リード保証（通常） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>外部遷移数</masterLabel>
+        <translation><!-- 外部遷移数 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

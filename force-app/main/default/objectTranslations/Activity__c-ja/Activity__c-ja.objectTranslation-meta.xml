@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>活動</value>
+    </caseValues>
+    <layouts>
+        <layout>DB営業レイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- ベンダ・代理店 --></label>
+            <section>ベンダ・代理店</section>
+        </sections>
+        <sections>
+            <label><!-- 内容 --></label>
+            <section>内容</section>
+        </sections>
+        <sections>
+            <label><!-- 取引先情報（仮入力） --></label>
+            <section>取引先情報（仮入力）</section>
+        </sections>
+        <sections>
+            <label><!-- 取引先情報（本番入力） --></label>
+            <section>取引先情報（本番入力）</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>活動レイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- 案件の新規作成 --></label>
+        <name>ActionToProjectFieldCreate</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- 広告営業用レコードタイプ --></label>
+        <name>AdSalesRecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DB営業用レコードタイプ --></label>
+        <name>DBSalesRecordType</name>
+    </recordTypes>
+</CustomObjectTranslation>

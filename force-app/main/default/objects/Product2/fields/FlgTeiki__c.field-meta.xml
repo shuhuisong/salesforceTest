@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlgTeiki__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>えびす：空白(null):通常商品、1:定期販売商品</description>
+    <externalId>false</externalId>
+    <label>定期販売商品</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

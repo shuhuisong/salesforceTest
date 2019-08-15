@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 状態 --></label>
+    <name>State__c</name>
+    <picklistValues>
+        <masterLabel>不成立</masterLabel>
+        <translation><!-- 不成立 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>否決</masterLabel>
+        <translation><!-- 否決 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>成約</masterLabel>
+        <translation><!-- 成約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>成約・解約</masterLabel>
+        <translation><!-- 成約・解約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>提案中</masterLabel>
+        <translation><!-- 提案中 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>提案済</masterLabel>
+        <translation><!-- 提案済 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>検討中</masterLabel>
+        <translation><!-- 検討中 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約回避中</masterLabel>
+        <translation><!-- 解約回避中 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

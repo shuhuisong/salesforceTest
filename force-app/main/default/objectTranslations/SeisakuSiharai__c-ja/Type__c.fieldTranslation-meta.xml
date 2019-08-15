@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- タイプ --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>その他制作・支払</masterLabel>
+        <translation><!-- その他制作・支払 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>記事広告制作</masterLabel>
+        <translation><!-- 記事広告制作 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- えびす上記1で「その他」を選択した方にお尋ねします。具体的にその中止理由を教えて --></label>
+    <name>EbisuForm07__c</name>
+</CustomFieldTranslation>

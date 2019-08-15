@@ -1,0 +1,8 @@
+件名：{!Case.Subject}
+発生源：{!Case.Origin}
+種別：{!Case.Type}
+
+説明：{!Case.Description}
+
+ケース詳細：
+{!Case.Link}

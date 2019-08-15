@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyActivityListAd</fullName>
+    <columns>NAME</columns>
+    <columns>Date__c</columns>
+    <columns>Account__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Method__c</columns>
+    <columns>Project__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Activity__c.DBSalesRecordType</value>
+    </filters>
+    <label>私の活動(広告用)</label>
+    <sharedTo>
+        <role>BusinessPromotionDeptRole</role>
+    </sharedTo>
+</ListView>

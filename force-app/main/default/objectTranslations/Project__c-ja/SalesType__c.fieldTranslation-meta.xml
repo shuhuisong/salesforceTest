@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 販売種別 --></label>
+    <name>SalesType__c</name>
+    <picklistValues>
+        <masterLabel>スポット</masterLabel>
+        <translation><!-- スポット --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>定期</masterLabel>
+        <translation><!-- 定期 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>定期・新規</masterLabel>
+        <translation><!-- 定期・新規 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>定期・既存</masterLabel>
+        <translation><!-- 定期・既存 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

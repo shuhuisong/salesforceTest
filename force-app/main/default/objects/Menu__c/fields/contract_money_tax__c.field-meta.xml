@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>contract_money_tax__c</fullName>
+    <externalId>false</externalId>
+    <formula>magazine_fee_billing_amount__c + product_fee2__c * ( 1 + tax_rate__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>掲載料金・契約金請求金額（税別、メニュー）+制作費・講師派遣料（税抜、メニュー）×（1+消費税（0.1））</inlineHelpText>
+    <label>総額請求金・契約金額（税込、メニュー）</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 代理店担当者(窓口) --></label>
+    <name>agency_person__c</name>
+    <relationshipLabel><!-- C商談 (代理店担当者(窓口)) --></relationshipLabel>
+</CustomFieldTranslation>

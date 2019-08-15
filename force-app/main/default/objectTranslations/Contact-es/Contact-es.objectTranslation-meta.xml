@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Sansanタグ情報 --></label>
+            <section>Sansanタグ情報</section>
+        </sections>
+        <sections>
+            <label><!-- 東洋経済情報 --></label>
+            <section>東洋経済情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DB営業用</layout>
+        <sections>
+            <label><!-- Sansanタグ情報 --></label>
+            <section>Sansanタグ情報</section>
+        </sections>
+        <sections>
+            <label><!-- 東洋経済情報 --></label>
+            <section>東洋経済情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>広告営業用</layout>
+        <sections>
+            <label><!-- Sansanタグ情報 --></label>
+            <section>Sansanタグ情報</section>
+        </sections>
+        <sections>
+            <label><!-- 東洋経済情報 --></label>
+            <section>東洋経済情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>法人</layout>
+        <sections>
+            <label><!-- Marketo Sales Insight --></label>
+            <section>Marketo Sales Insight</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo連携フィールド --></label>
+            <section>Marketo連携フィールド</section>
+        </sections>
+        <sections>
+            <label><!-- 管理情報(Force.com) --></label>
+            <section>管理情報(Force.com)</section>
+        </sections>
+        <sections>
+            <label><!-- 管理情報(Marketo) --></label>
+            <section>管理情報(Marketo)</section>
+        </sections>
+        <sections>
+            <label><!-- 管理情報(Sansan) --></label>
+            <section>管理情報(Sansan)</section>
+        </sections>
+        <sections>
+            <label><!-- 管理情報(えびすマート) --></label>
+            <section>管理情報(えびすマート)</section>
+        </sections>
+        <sections>
+            <label><!-- 管理情報(ストア) --></label>
+            <section>管理情報(ストア)</section>
+        </sections>
+        <sections>
+            <label><!-- 管理情報(個客番) --></label>
+            <section>管理情報(個客番)</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- 法人かつ個人 --></label>
+        <name>Account_PersonalAccount</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 法人 --></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email --></label>
+        <name>mkto_si__Send_Marketo_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

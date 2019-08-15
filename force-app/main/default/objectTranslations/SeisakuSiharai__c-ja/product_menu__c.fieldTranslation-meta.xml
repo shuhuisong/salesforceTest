@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 制作物・委託物・実施物 --></label>
+    <name>product_menu__c</name>
+    <picklistValues>
+        <masterLabel>イラスト</masterLabel>
+        <translation><!-- イラスト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オンラインページ（CMS)</masterLabel>
+        <translation><!-- オンラインページ（CMS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オンラインページ（html）</masterLabel>
+        <translation><!-- オンラインページ（html） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>デザイン物</masterLabel>
+        <translation><!-- デザイン物 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>バナー</masterLabel>
+        <translation><!-- バナー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ポートレート</masterLabel>
+        <translation><!-- ポートレート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事後アンケート集計</masterLabel>
+        <translation><!-- 事後アンケート集計 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会場関連費（事前）</masterLabel>
+        <translation><!-- 会場関連費（事前） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会場関連費（事後）</masterLabel>
+        <translation><!-- 会場関連費（事後） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>動画</masterLabel>
+        <translation><!-- 動画 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>印刷物</masterLabel>
+        <translation><!-- 印刷物 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>原稿（ライティング）</masterLabel>
+        <translation><!-- 原稿（ライティング） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>取材有識者謝礼</masterLabel>
+        <translation><!-- 取材有識者謝礼 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>告知関連</masterLabel>
+        <translation><!-- 告知関連 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>図</masterLabel>
+        <translation><!-- 図 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当日運営業務</masterLabel>
+        <translation><!-- 当日運営業務 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>機材オペレート</masterLabel>
+        <translation><!-- 機材オペレート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>編集プロダクション制作依頼</masterLabel>
+        <translation><!-- 編集プロダクション制作依頼 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誌面デザイン</masterLabel>
+        <translation><!-- 誌面デザイン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>講演者謝礼</masterLabel>
+        <translation><!-- 講演者謝礼 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

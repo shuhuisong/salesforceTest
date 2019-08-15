@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- メニューの状態 --></label>
+    <name>menu_status__c</name>
+    <picklistValues>
+        <masterLabel>内定</masterLabel>
+        <translation><!-- 内定 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>成約</masterLabel>
+        <translation><!-- 成約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>検討A</masterLabel>
+        <translation><!-- 検討A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>検討B</masterLabel>
+        <translation><!-- 検討B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>検討C</masterLabel>
+        <translation><!-- 検討C --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- &quot;IL&quot;,&quot;BL&quot;,&quot;DL&quot;,&quot;10&quot;,&quot;20&quot;の5パターン --></help>
+    <label><!-- 個客番 新契約・最新請求種別 --></label>
+    <name>KokyakuNewContractOrLatestBillType__c</name>
+</CustomFieldTranslation>

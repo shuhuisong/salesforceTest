@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactNameCheck__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND ( NOT(ISBLANK(ContactText__c)) ,ISBLANK( Contact__c ) ) , TRUE , FALSE )</formula>
+    <label>仮入力状態(企業担当者名)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

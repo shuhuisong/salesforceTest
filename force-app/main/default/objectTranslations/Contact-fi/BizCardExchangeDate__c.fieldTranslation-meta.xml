@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sansan Salesforce連携項目 --></help>
+    <label><!-- 名刺交換日 --></label>
+    <name>BizCardExchangeDate__c</name>
+</CustomFieldTranslation>

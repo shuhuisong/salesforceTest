@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DBAccountTypeFlg__c</fullName>
+    <externalId>false</externalId>
+    <label>証券or運用会社orベンダor一般会社</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>証券</fullName>
+                <default>false</default>
+                <label>証券</label>
+            </value>
+            <value>
+                <fullName>運用会社</fullName>
+                <default>false</default>
+                <label>運用会社</label>
+            </value>
+            <value>
+                <fullName>ベンダ</fullName>
+                <default>false</default>
+                <label>ベンダ</label>
+            </value>
+            <value>
+                <fullName>一般会社</fullName>
+                <default>false</default>
+                <label>一般会社</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

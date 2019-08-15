@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 進行ステータス(記事広告制作) --></label>
+    <name>product_status__c</name>
+    <picklistValues>
+        <masterLabel>オリエン</masterLabel>
+        <translation><!-- オリエン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>再校</masterLabel>
+        <translation><!-- 再校 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>初校</masterLabel>
+        <translation><!-- 初校 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>原稿制作中</masterLabel>
+        <translation><!-- 原稿制作中 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>取材</masterLabel>
+        <translation><!-- 取材 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>念校</masterLabel>
+        <translation><!-- 念校 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>校了</masterLabel>
+        <translation><!-- 校了 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>（WEB）公開</masterLabel>
+        <translation><!-- （WEB）公開 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>（誌面）入稿済み</masterLabel>
+        <translation><!-- （誌面）入稿済み --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

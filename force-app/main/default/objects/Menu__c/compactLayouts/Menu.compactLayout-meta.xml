@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Menu</fullName>
+    <fields>Name</fields>
+    <fields>client_name__c</fields>
+    <fields>agency_name__c</fields>
+    <fields>customers_type__c</fields>
+    <fields>sales_staff__c</fields>
+    <fields>seisaku_director__c</fields>
+    <label>メニューコンパクトレイアウト</label>
+</CompactLayout>

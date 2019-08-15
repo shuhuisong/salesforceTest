@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sales_staff__c</fullName>
+    <externalId>false</externalId>
+    <label>広告営業担当</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>本多　正典</fullName>
+                <default>false</default>
+                <label>本多　正典</label>
+            </value>
+            <value>
+                <fullName>山内　光之</fullName>
+                <default>false</default>
+                <label>山内　光之</label>
+            </value>
+            <value>
+                <fullName>新津　尚男</fullName>
+                <default>false</default>
+                <label>新津　尚男</label>
+            </value>
+            <value>
+                <fullName>田中　健一</fullName>
+                <default>false</default>
+                <label>田中　健一</label>
+            </value>
+            <value>
+                <fullName>斎藤　治子</fullName>
+                <default>false</default>
+                <label>斎藤　治子</label>
+            </value>
+            <value>
+                <fullName>林　政孝</fullName>
+                <default>false</default>
+                <label>林　政孝</label>
+            </value>
+            <value>
+                <fullName>白川　岳史</fullName>
+                <default>false</default>
+                <label>白川　岳史</label>
+            </value>
+            <value>
+                <fullName>小林　玉枝</fullName>
+                <default>false</default>
+                <label>小林　玉枝</label>
+            </value>
+            <value>
+                <fullName>尾登　雄平</fullName>
+                <default>false</default>
+                <label>尾登　雄平</label>
+            </value>
+            <value>
+                <fullName>星野　はる香</fullName>
+                <default>false</default>
+                <label>星野　はる香</label>
+            </value>
+            <value>
+                <fullName>佐藤　幹朗</fullName>
+                <default>false</default>
+                <label>佐藤　幹朗</label>
+            </value>
+            <value>
+                <fullName>進藤　貴史</fullName>
+                <default>false</default>
+                <label>進藤　貴史</label>
+            </value>
+            <value>
+                <fullName>原　野枝</fullName>
+                <default>false</default>
+                <label>原　野枝</label>
+            </value>
+            <value>
+                <fullName>鈴木　奏子</fullName>
+                <default>false</default>
+                <label>鈴木　奏子</label>
+            </value>
+            <value>
+                <fullName>田邊　真男</fullName>
+                <default>false</default>
+                <label>田邊　真男</label>
+            </value>
+            <value>
+                <fullName>瓦野　晋治</fullName>
+                <default>false</default>
+                <label>瓦野　晋治</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

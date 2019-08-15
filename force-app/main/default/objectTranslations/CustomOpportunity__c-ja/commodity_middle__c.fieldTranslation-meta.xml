@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 商材（中分類） --></label>
+    <name>commodity_middle__c</name>
+    <picklistValues>
+        <masterLabel>BtoC</masterLabel>
+        <translation><!-- BtoC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation><!-- IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コンサル</masterLabel>
+        <translation><!-- コンサル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>セミナー</masterLabel>
+        <translation><!-- セミナー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>教育</masterLabel>
+        <translation><!-- 教育 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自治体</masterLabel>
+        <translation><!-- 自治体 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>金融</masterLabel>
+        <translation><!-- 金融 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+次のケースがエスカレートされました： 
+会社名:  {!Account.Name} 
+ケース:  {!Case.CaseNumber}:  {!Case.Subject} 
+所有者:  {!Case.OwnerFullName}  
+
+ケースにアクセスするにはリンクをクリックしてください:  {!Case.Link}

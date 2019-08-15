@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- データ商品_大分類 --></label>
+    <name>DataProductFamily__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>企業データ</masterLabel>
+        <translation><!-- 企業データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>四季報関連</masterLabel>
+        <translation><!-- 四季報関連 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>地域流通データ</masterLabel>
+        <translation><!-- 地域流通データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大株主・役員</masterLabel>
+        <translation><!-- 大株主・役員 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>就職四季報</masterLabel>
+        <translation><!-- 就職四季報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>株価・株数</masterLabel>
+        <translation><!-- 株価・株数 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>業績予想</masterLabel>
+        <translation><!-- 業績予想 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>短信有報</masterLabel>
+        <translation><!-- 短信有報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＣＳＲ・ＥＳＧオンライン</masterLabel>
+        <translation><!-- ＣＳＲ・ＥＳＧオンライン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ＤＣＬ・記事ロイヤリティ</masterLabel>
+        <translation><!-- ＤＣＬ・記事ロイヤリティ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
