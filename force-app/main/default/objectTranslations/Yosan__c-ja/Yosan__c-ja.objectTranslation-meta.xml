@@ -4,28 +4,17 @@
         <plural>false</plural>
         <value>予算</value>
     </caseValues>
-    <layouts>
-        <layout>予算レイアウト</layout>
-        <sections>
-            <label><!-- カスタムリンク --></label>
-            <section>カスタムリンク</section>
-        </sections>
-        <sections>
-            <label><!-- 詳細情報 --></label>
-            <section>詳細情報</section>
-        </sections>
-    </layouts>
     <recordTypes>
         <label><!-- クライアント --></label>
         <name>Account</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- 実績 --></label>
-        <name>Jisseki</name>
+        <label><!-- 支出 --></label>
+        <name>Shisyutsu</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- 媒体 --></label>
-        <name>baitai</name>
+        <label><!-- 収入 --></label>
+        <name>Shunyu</name>
     </recordTypes>
     <recordTypes>
         <label><!-- 営業担当者 --></label>

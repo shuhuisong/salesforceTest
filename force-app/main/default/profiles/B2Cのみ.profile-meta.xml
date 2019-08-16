@@ -3802,6 +3802,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.Oldshubetsu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Menu__c.accounting_date__c</field>
         <readable>true</readable>
@@ -4042,6 +4047,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.honsuu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Menu__c.impressions__c</field>
         <readable>true</readable>
@@ -4089,6 +4099,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.kaigai_torihiki__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.kentouchu__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4418,6 +4433,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Menu__c.shubetsu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.snapshot_name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Menu__c.sp_emergent_value__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4484,6 +4509,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.total_fee2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.uchimikomi__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7298,7 +7328,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Yosan__c.agency_margin__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Yosan__c.baitai__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Yosan__c.dairiten_keiyakugaku__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Yosan__c.goukei__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7318,12 +7363,52 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Yosan__c.housuu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Yosan__c.kentouchu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Yosan__c.menu_id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Yosan__c.product_code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Yosan__c.roumuhi__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Yosan__c.shubetsu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Yosan__c.sonota_costs__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.tai_yosan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Yosan__c.tyoku_keiyakugaku__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Yosan__c.uchimikomi__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7334,6 +7419,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Yosan__c.yosan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.yosanhi2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.yosanhi__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -8336,25 +8431,6 @@
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Yosan__c-予算レイアウト</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Yosan__c-予算レイアウト</layout>
-        <recordType>Yosan__c.Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Yosan__c-予算レイアウト</layout>
-        <recordType>Yosan__c.Jisseki</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Yosan__c-予算レイアウト</layout>
-        <recordType>Yosan__c.baitai</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Yosan__c-予算レイアウト</layout>
-        <recordType>Yosan__c.user</recordType>
-    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -9173,23 +9249,13 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Yosan__c.Account</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Yosan__c.Jisseki</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <default>true</default>
-        <recordType>Yosan__c.baitai</recordType>
+        <recordType>Yosan__c.Shisyutsu</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Yosan__c.user</recordType>
+        <recordType>Yosan__c.Shunyu</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

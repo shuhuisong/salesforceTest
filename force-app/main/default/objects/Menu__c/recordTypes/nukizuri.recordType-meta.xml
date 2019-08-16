@@ -742,6 +742,13 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>shubetsu__c</picklist>
+        <values>
+            <fullName>実績</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>timing__c</picklist>
         <values>
             <fullName>%E2%91%A0</fullName>

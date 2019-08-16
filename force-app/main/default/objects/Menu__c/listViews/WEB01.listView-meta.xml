@@ -16,7 +16,7 @@
     <filters>
         <field>menu_status__c</field>
         <operation>equals</operation>
-        <value>決定済み</value>
+        <value>成約</value>
     </filters>
     <label>決定済み案件</label>
 </ListView>

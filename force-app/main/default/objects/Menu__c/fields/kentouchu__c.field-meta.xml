@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kentouchu__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE ( custom_opportunity__r.syoudan_status__c , 
+&quot;検討C&quot; , total_fee2__c , 
+&quot;検討B&quot; , total_fee2__c , 
+&quot;検討A&quot; , total_fee2__c , 
+&quot;見込み&quot; , total_fee2__c , 
+0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>検討中</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
