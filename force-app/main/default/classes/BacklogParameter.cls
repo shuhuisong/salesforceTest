@@ -36,7 +36,11 @@ public with sharing class BacklogParameter {
     }
 
     public class customFields{
-        public String field;
-        public String value;
+        //public String field;
+        //public String value;
+        public List<items> items;
+    }
+        public class items{
+        public String name;
     }
 }

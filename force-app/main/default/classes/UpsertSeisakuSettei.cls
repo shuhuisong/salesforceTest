@@ -47,9 +47,10 @@ System.debug('DEBUG*****UpsertSeisakuSettei UPDATE ERROR：'+e.getMessage());
         settei.Backlog_Id__c = params.content.id;
         // Backlogプロジェクト名
         settei.BacklogProjectName__c = params.project.name;
-        // 制作ID
-        //settei.Name = '実際にはIdが採番されます';
-        settei.Name = params.content.id; //仮設定として課題Idを登録している → 実際にはトリガで採番を行う。
+        // 制作ID,新規の場合：Backlog課題Idを設定する
+        if(String.isEmpty(settei)){
+        settei.Name = params.content.id;
+        } 
         // 件名
         settei.backlog_title__c = params.content.summary;
         // 種別
@@ -59,7 +60,16 @@ System.debug('DEBUG*****UpsertSeisakuSettei UPDATE ERROR：'+e.getMessage());
             settei.adcms_category__c = params.content.category[0].name;
         }
         // チェックリスト → チェックリストが何かをお客様に確認してから修正する
-        //settei.backlog_check__c = ;
+        int count = 0;
+        if(params.content.customFields.size() > 0){
+            for (String name: params.content.customFields[0].items) {
+                 settei.backlog_check__c = settei.backlog_check__c + name + ',';
+                 count = count + 1;
+                 if(params.content.customFields[0].items.size() == count){
+                    settei.backlog_check__c = settei.backlog_check__c + name;
+                 }
+            }
+        }
         // ステータス
         settei.backlog_status__c = params.content.status.name;
         // 開始日
