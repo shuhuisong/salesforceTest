@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>TEXT ( accounting_date__c ) &amp; &quot;_&quot; &amp; RecordType.Name &amp; &quot;_&quot; &amp; TEXT ( baitai_name__c ) &amp; &quot;_&quot; &amp; magazine_type__r.gousuu__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>スナップショット名</label>
+    <label>Oldスナップショット名</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

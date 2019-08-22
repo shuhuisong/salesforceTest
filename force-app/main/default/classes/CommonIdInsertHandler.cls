@@ -25,6 +25,8 @@ public with sharing class CommonIdInsertHandler {
         String name_5keta = '';
         //最終ID
         Decimal lastID = 0.0;
+        String lastID_2keta = '01';
+        String lastID_3keta = '001';
         String lastIDResult = '';
         String type = '';
         List<Account> updateListAccount = new List<Account>();
@@ -69,10 +71,10 @@ public with sharing class CommonIdInsertHandler {
                        lastID = oppo.clent_name__r.last_opp_id__c;
                        if(lastID == null){
                            lastID = 1;
-                           lastIDResult = '01';
+                           lastIDResult = lastID_3keta;
                        }else{
                           lastID = lastID +1;
-                          lastIDResult = String.valueOf((lastID).intValue()).leftPad(2, '0');
+                          lastIDResult = String.valueOf((lastID).intValue()).leftPad(3, '0');
                         }
                         oppo.Name = name + '_' + lastIDResult;
                         oppo.clent_name__r.last_opp_id__c = lastID;
@@ -105,7 +107,7 @@ public with sharing class CommonIdInsertHandler {
                        //親オブジェクトの ID を取得できる場合
                        if(lastID == null){
                        lastID = 1;
-                       lastIDResult = '01';
+                       lastIDResult = lastID_2keta;
                        }else{
                            lastID = lastID +1;
                            lastIDResult = String.valueOf((lastID).intValue()).leftPad(2, '0');
@@ -142,7 +144,7 @@ public with sharing class CommonIdInsertHandler {
                            //親オブジェクトの ID を取得できる場合
                            if(lastID == null){
                                lastID = 1;
-                               lastIDResult = '001';
+                               lastIDResult = lastID_3keta;
                            }else{
                                lastID = lastID +1;
                                lastIDResult = String.valueOf((lastID).intValue()).leftPad(3, '0');
@@ -179,7 +181,7 @@ public with sharing class CommonIdInsertHandler {
                             //親オブジェクトの ID を取得できる場合
                             if(lastID == null){
                                 lastID = 1;
-                                lastIDResult = '01';
+                                lastIDResult = lastID_2keta;
                             }else{
                                 lastID = lastID +1;
                                 lastIDResult = String.valueOf((lastID).intValue()).leftPad(2, '0');
@@ -219,7 +221,7 @@ public with sharing class CommonIdInsertHandler {
                                 //親オブジェクトの ID を取得できる場合
                                 if(lastID == null){
                                     lastID = 1;
-                                    lastIDResult = '001';
+                                    lastIDResult = lastID_3keta;
                                 }else{
                                     lastID = lastID +1;
                                     lastIDResult = String.valueOf((lastID).intValue()).leftPad(3, '0');
@@ -244,12 +246,12 @@ public with sharing class CommonIdInsertHandler {
                             //親オブジェクトの ID を取得できる場合
                             if(lastID == null){
                                lastID = 1;
-                               lastIDResult = '001';
+                               lastIDResult = lastID_3keta;
                             }else{
                                lastID = lastID +1;
                                lastIDResult = String.valueOf((lastID).intValue()).leftPad(3, '0');
                             }
-                            task2.nippou_id__c = name + '_00_' + lastIDResult;
+                            task2.nippou_id__c = name + '_000_' + lastIDResult;
                             account.last_act_id__c = lastID;
                             updateListTask.add(task2);
                             updateListAccount.add(account);
@@ -284,7 +286,7 @@ public with sharing class CommonIdInsertHandler {
                                 //親オブジェクトの ID を取得できる場合
                                 if(lastID == null){
                                     lastID = 1;
-                                    lastIDResult = '001';
+                                    lastIDResult = lastID_3keta;
                                 }else{
                                     lastID = lastID +1;
                                     lastIDResult = String.valueOf((lastID).intValue()).leftPad(3, '0');
@@ -309,12 +311,12 @@ public with sharing class CommonIdInsertHandler {
                             //親オブジェクトの ID を取得できる場合
                             if(lastID == null){
                                 lastID = 1;
-                                lastIDResult = '001';
+                                lastIDResult = lastID_3keta;
                             }else{
                                 lastID = lastID +1;
                                 lastIDResult = String.valueOf((lastID).intValue()).leftPad(3, '0');
                             }
-                            event.nippou_id__c = name + '_00_' + lastIDResult;
+                            event.nippou_id__c = name + '_000_' + lastIDResult;
                             account.last_act_id__c = lastID;
                             updateListEvent.add(event);
                             updateListAccount.add(account);

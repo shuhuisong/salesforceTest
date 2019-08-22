@@ -21,16 +21,6 @@
                 <default>false</default>
                 <label>実績</label>
             </value>
-            <value>
-                <fullName>一次推計</fullName>
-                <default>false</default>
-                <label>一次推計</label>
-            </value>
-            <value>
-                <fullName>二次推計</fullName>
-                <default>false</default>
-                <label>二次推計</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

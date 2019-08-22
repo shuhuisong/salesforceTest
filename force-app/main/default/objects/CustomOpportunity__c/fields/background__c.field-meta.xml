@@ -3,7 +3,7 @@
     <fullName>background__c</fullName>
     <externalId>false</externalId>
     <label>商談の経緯</label>
-    <required>true</required>
+    <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -239,8 +239,6 @@
         <fields>CREATEDBY_USER</fields>
         <relatedList>RelatedArticleList</relatedList>
     </relatedLists>
-    <relatedObjects>ContactId</relatedObjects>
-    <relatedObjects>AccountId</relatedObjects>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
     <showEmailCheckbox>true</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

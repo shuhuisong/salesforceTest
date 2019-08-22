@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 広告営業担当 --></label>
+    <name>sales_staff__c</name>
+</CustomFieldTranslation>

@@ -2,11 +2,12 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>uchimikomi__c</fullName>
     <externalId>false</externalId>
-    <formula>CASE ( custom_opportunity__r.syoudan_status__c , 
+    <formula>CASE ( menu_status__c , 
 &quot;検討A&quot; ,  total_fee2__c , 
 &quot;内定&quot; ,  total_fee2__c , 
 0 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>商談の状態が　検討Aと内定　の場合、総額請求金・契約金額（税抜、メニュー）の金額を表示</inlineHelpText>
     <label>内見込</label>
     <precision>18</precision>
     <required>false</required>

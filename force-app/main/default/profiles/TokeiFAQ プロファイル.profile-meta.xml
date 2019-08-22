@@ -1646,11 +1646,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>CommonAmount__c.type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AccountId</field>
         <readable>true</readable>
@@ -2614,6 +2609,11 @@
         <editable>false</editable>
         <field>CustomOpportunity__c.agency_person__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomOpportunity__c.background__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3812,6 +3812,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Menu__c.OpportunityLink__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Menu__c.accounting_date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3863,6 +3868,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.agency_fee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.agency_keiyakugaku__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3923,6 +3933,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.carry_date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.choku_keiyakugaku__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3988,6 +4003,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.douitsu_check__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.e_agency_name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.e_client_name__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4102,6 +4127,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Menu__c.jissekigoukei__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Menu__c.kaigai_torihiki__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4188,6 +4218,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.magazine_type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.mail_yoyaku__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4458,6 +4493,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.sp_imp_guarantee_value__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Menu__c.space__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6217,12 +6257,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>SeisakuSettei__c.customers_type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SeisakuSettei__c.e_agency_name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SeisakuSettei__c.e_client_name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>SeisakuSettei__c.kind__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>SeisakuSettei__c.product_menu__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SeisakuSettei__c.sales_staff__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6307,6 +6367,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>SeisakuSiharai__c.e_account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SeisakuSiharai__c.e_agency_name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>SeisakuSiharai__c.end_date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -6383,6 +6453,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>SeisakuSiharai__c.product_by_date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SeisakuSiharai__c.product_cost2__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6468,6 +6543,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>SeisakuSiharai__c.start_date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SeisakuSiharai__c.tax_rate__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7332,22 +7412,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Yosan__c.Oldyosanhi2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.Oldyosanhi__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.ad_type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.agency_keiyakugaku__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Yosan__c.agency_margin__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Yosan__c.baitai__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Yosan__c.dairiten_keiyakugaku__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Yosan__c.goukei__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7372,6 +7462,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Yosan__c.jissekigoukei__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Yosan__c.kentouchu__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -7382,12 +7477,72 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Yosan__c.menu_type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Yosan__c.product_code__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Yosan__c.published_page__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Yosan__c.roumuhi__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_jissekikingaku__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_shunyu_jissekigoukei__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_suikei1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_suikei2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_suikei3__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_tai_suikei1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_tai_suikei2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_tai_suikei3__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_tai_yosan__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.saeki_yosan__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7398,6 +7553,36 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Yosan__c.sonota_costs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.suikei1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.suikei2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.suikei3__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.tai_suikei1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.tai_suikei2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.tai_suikei3__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7423,16 +7608,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Yosan__c.yosan__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Yosan__c.yosanhi2__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Yosan__c.yosanhi__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

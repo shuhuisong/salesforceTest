@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>saeki_suikei1__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( RecordType.Name = &quot;収入&quot; , suikei1__c , 
+IF ( RecordType.Name = &quot;支出&quot; , suikei1__c * -1 ,
+null ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>差益_一次推計</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

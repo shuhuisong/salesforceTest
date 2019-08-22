@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- メニューの状態：が 成約 かつ 代理店フラグに&quot;代理店&quot;という文字列が含まれる場合、総額請求金・契約金額（税抜、メニュー）+「代理店手数料（メニュー） --></help>
+    <label><!-- 代理店契約額 --></label>
+    <name>agency_keiyakugaku__c</name>
+</CustomFieldTranslation>

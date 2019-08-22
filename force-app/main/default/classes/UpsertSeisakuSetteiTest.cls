@@ -23,7 +23,7 @@ public with sharing class UpsertSeisakuSetteiTest {
 
         RestContext.request = req;
         RestContext.response = res;
-
+        System.assertEquals('POST', req.httpMethod,'連携のメソッドが不正です');
         UpsertSeisakuSettei.upsertSeisakuSettei();
 
     }
@@ -51,19 +51,19 @@ public with sharing class UpsertSeisakuSetteiTest {
         insert oppo;
         //メニューの新規入力
         System.assertEquals(null, oppo.last_menu_id__c,'C商談の最終IDが不正です');
-        CustomOpportunity__c oppo2 = [select Id from CustomOpportunity__c where name = '00013_01'];
+        CustomOpportunity__c oppo2 = [select Id from CustomOpportunity__c where name = '00013_001'];
         Menu__c menu = new Menu__c(name='*',custom_opportunity__c=oppo2.Id);
         insert menu;
         //制作・支払の新規入力
         System.assertEquals(null, menu.last_id__c,'メニューの最終IDが不正です');
-        Menu__c menu2 = [select Id from Menu__c where name = '00013_01_001'];
+        Menu__c menu2 = [select Id from Menu__c where name = '00013_001_01'];
         SeisakuSiharai__c siha = new SeisakuSiharai__c(name='*',Type__c='その他制作・支払',menu__c=menu2.Id);
         insert siha;
         //制作設定の新規入力
-        SeisakuSiharai__c siha2 = [select Id from SeisakuSiharai__c where name = '00013_01_001_001'];
+        SeisakuSiharai__c siha2 = [select Id from SeisakuSiharai__c where name = '00013_001_01_001'];
         SeisakuSettei__c sett = new SeisakuSettei__c(name='*',seisaku_siharai__c=siha2.Id,Backlog_Id__c='10843360');
         insert sett;
-
+        System.assertEquals('POST', req.httpMethod,'連携のメソッドが不正です');
         UpsertSeisakuSettei.upsertSeisakuSettei();
 
     }

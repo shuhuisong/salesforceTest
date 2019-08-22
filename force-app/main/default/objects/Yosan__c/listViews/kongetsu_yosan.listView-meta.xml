@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kongetsu_yosan</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>yosan__c</columns>
+    <columns>suikei1__c</columns>
+    <columns>suikei2__c</columns>
+    <columns>suikei3__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>shubetsu__c</field>
+        <operation>equals</operation>
+        <value>予算</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Yosan__c.Shunyu</value>
+    </filters>
+    <label>今月の予算</label>
+</ListView>

@@ -53,15 +53,7 @@
     <picklistValues>
         <picklist>shubetsu__c</picklist>
         <values>
-            <fullName>一次推計</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>予算</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>二次推計</fullName>
             <default>false</default>
         </values>
         <values>

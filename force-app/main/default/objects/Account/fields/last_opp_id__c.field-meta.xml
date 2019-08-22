@@ -4,7 +4,7 @@
     <description>ID採番処理用</description>
     <externalId>false</externalId>
     <label>最終C商談ID</label>
-    <precision>2</precision>
+    <precision>3</precision>
     <required>false</required>
     <scale>0</scale>
     <trackFeedHistory>false</trackFeedHistory>

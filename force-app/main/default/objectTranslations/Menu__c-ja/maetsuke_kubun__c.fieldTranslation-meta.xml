@@ -3,11 +3,19 @@
     <label><!-- 前付区分 --></label>
     <name>maetsuke_kubun__c</name>
     <picklistValues>
-        <masterLabel>ある</masterLabel>
-        <translation><!-- ある --></translation>
+        <masterLabel>センター</masterLabel>
+        <translation><!-- センター --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>なし</masterLabel>
-        <translation><!-- なし --></translation>
+        <masterLabel>前付</masterLabel>
+        <translation><!-- 前付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>後付</masterLabel>
+        <translation><!-- 後付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>指定なし</masterLabel>
+        <translation><!-- 指定なし --></translation>
     </picklistValues>
 </CustomFieldTranslation>

@@ -11,6 +11,15 @@
         <protected>false</protected>
     </fieldUpdates>
     <fieldUpdates>
+        <fullName>TaxRateSet</fullName>
+        <field>tax_rate__c</field>
+        <formula>IF ( menu__r.kaigai_torihiki__c = True , 0 , VALUE ( $Label.tax_rate ) )</formula>
+        <name>消費税率Set</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>product_by_date_true</fullName>
         <field>product_by_date__c</field>
         <literalValue>1</literalValue>
@@ -39,6 +48,19 @@
         <protected>false</protected>
         <reevaluateOnChange>true</reevaluateOnChange>
     </fieldUpdates>
+    <rules>
+        <fullName>消費税率Set</fullName>
+        <actions>
+            <name>TaxRateSet</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>SeisakuSiharai__c.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
     <rules>
         <fullName>納品日チェック</fullName>
         <actions>

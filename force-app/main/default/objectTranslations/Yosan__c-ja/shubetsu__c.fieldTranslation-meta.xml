@@ -3,16 +3,8 @@
     <label><!-- 種別 --></label>
     <name>shubetsu__c</name>
     <picklistValues>
-        <masterLabel>一次推計</masterLabel>
-        <translation><!-- 一次推計 --></translation>
-    </picklistValues>
-    <picklistValues>
         <masterLabel>予算</masterLabel>
         <translation><!-- 予算 --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>二次推計</masterLabel>
-        <translation><!-- 二次推計 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>実績</masterLabel>

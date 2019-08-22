@@ -12,14 +12,24 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>ある</fullName>
+                <fullName>指定なし</fullName>
                 <default>false</default>
-                <label>ある</label>
+                <label>指定なし</label>
             </value>
             <value>
-                <fullName>なし</fullName>
+                <fullName>前付</fullName>
                 <default>false</default>
-                <label>なし</label>
+                <label>前付</label>
+            </value>
+            <value>
+                <fullName>後付</fullName>
+                <default>false</default>
+                <label>後付</label>
+            </value>
+            <value>
+                <fullName>センター</fullName>
+                <default>false</default>
+                <label>センター</label>
             </value>
         </valueSetDefinition>
     </valueSet>

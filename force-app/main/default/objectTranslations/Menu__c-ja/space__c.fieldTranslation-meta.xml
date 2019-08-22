@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- スペース --></label>
+    <name>space__c</name>
+    <picklistValues>
+        <masterLabel>4C16P</masterLabel>
+        <translation><!-- 4C16P --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4C44P</masterLabel>
+        <translation><!-- 4C44P --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ハガキ１Ｃ１葉</masterLabel>
+        <translation><!-- ハガキ１Ｃ１葉 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ハガキ１Ｃ２葉</masterLabel>
+        <translation><!-- ハガキ１Ｃ２葉 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ハガキ２Ｃ１葉</masterLabel>
+        <translation><!-- ハガキ２Ｃ１葉 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ハガキ２Ｃ２葉</masterLabel>
+        <translation><!-- ハガキ２Ｃ２葉 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/10Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/10Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/15Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/15Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/20Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/20Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/25Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/25Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/2Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/2Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/3Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/3Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/6Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/6Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ1/8Ｐ</masterLabel>
+        <translation><!-- １Ｃ1/8Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ変形ﾀﾃ１/4Ｐ</masterLabel>
+        <translation><!-- １Ｃ変形ﾀﾃ１/4Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ１Ｐ</masterLabel>
+        <translation><!-- １Ｃ１Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ２Ｐ</masterLabel>
+        <translation><!-- １Ｃ２Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃ３Ｐ</masterLabel>
+        <translation><!-- １Ｃ３Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃﾀﾃ1/4Ｐ</masterLabel>
+        <translation><!-- １Ｃﾀﾃ1/4Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>１Ｃﾖｺ1/4Ｐ</masterLabel>
+        <translation><!-- １Ｃﾖｺ1/4Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>２Ｃ１Ｐ</masterLabel>
+        <translation><!-- ２Ｃ１Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>２Ｃ２Ｐ</masterLabel>
+        <translation><!-- ２Ｃ２Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ1/2Ｐ</masterLabel>
+        <translation><!-- ４Ｃ1/2Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ1/8Ｐ</masterLabel>
+        <translation><!-- ４Ｃ1/8Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ10Ｐ</masterLabel>
+        <translation><!-- ４Ｃ10Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ12Ｐ</masterLabel>
+        <translation><!-- ４Ｃ12Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ14Ｐ</masterLabel>
+        <translation><!-- ４Ｃ14Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ2/3Ｐ</masterLabel>
+        <translation><!-- ４Ｃ2/3Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ変形ﾀﾃ１/4P</masterLabel>
+        <translation><!-- ４Ｃ変形ﾀﾃ１/4P --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ１/3Ｐ</masterLabel>
+        <translation><!-- ４Ｃ１/3Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ１Ｐ</masterLabel>
+        <translation><!-- ４Ｃ１Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ２Ｐ</masterLabel>
+        <translation><!-- ４Ｃ２Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ３Ｐ</masterLabel>
+        <translation><!-- ４Ｃ３Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ４Ｐ</masterLabel>
+        <translation><!-- ４Ｃ４Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ５Ｐ</masterLabel>
+        <translation><!-- ４Ｃ５Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ６Ｐ</masterLabel>
+        <translation><!-- ４Ｃ６Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃ８Ｐ</masterLabel>
+        <translation><!-- ４Ｃ８Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃﾀﾃ１/4Ｐ</masterLabel>
+        <translation><!-- ４Ｃﾀﾃ１/4Ｐ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４Ｃﾖｺ1/4Ｐ</masterLabel>
+        <translation><!-- ４Ｃﾖｺ1/4Ｐ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

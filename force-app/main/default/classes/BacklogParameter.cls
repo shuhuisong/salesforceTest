@@ -10,6 +10,7 @@ public with sharing class BacklogParameter {
 
     public class Content{
         public String id;
+        public String key_id;
         public String summary; // 件名 = タイトル
         public String description; // 詳細
         public IssueType issueType; // タスク
@@ -17,7 +18,7 @@ public with sharing class BacklogParameter {
         public List<Category> category; // カテゴリー
         public String startDate; // 開始日
         public String dueDate; // 期限日
-        public List<customFields> customFields; //カスタム属性
+        public List<CustomFields> customFields; //カスタム属性
     }
 
     public class IssueType{
@@ -35,12 +36,8 @@ public with sharing class BacklogParameter {
         public String name; // カテゴリー
     }
 
-    public class customFields{
-        //public String field;
-        //public String value;
-        public List<items> items;
-    }
-        public class items{
-        public String name;
+    public class CustomFields{
+        public String field;
+        public String value;// backlog ID
     }
 }

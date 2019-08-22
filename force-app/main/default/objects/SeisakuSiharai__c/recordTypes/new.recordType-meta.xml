@@ -153,7 +153,7 @@
         </values>
         <values>
             <fullName>発注</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>納品</fullName>
@@ -172,7 +172,7 @@
         </values>
         <values>
             <fullName>オリエン</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>再校</fullName>

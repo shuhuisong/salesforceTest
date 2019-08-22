@@ -175,6 +175,6 @@
         <default>false</default>
         <label>山岡　正治</label>
     </customValue>
-    <masterLabel>制作担当</masterLabel>
+    <masterLabel>Old制作担当</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

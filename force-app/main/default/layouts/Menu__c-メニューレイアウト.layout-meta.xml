@@ -60,9 +60,10 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>account__c</fields>
-        <fields>menu_type__c</fields>
         <fields>product_menu__c</fields>
+        <fields>seisaku_hattyusaki__c</fields>
+        <fields>product_cost__c</fields>
+        <fields>product_memo__c</fields>
         <relatedList>SeisakuSiharai__c.menu__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

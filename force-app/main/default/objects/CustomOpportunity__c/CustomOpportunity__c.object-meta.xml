@@ -69,6 +69,7 @@
     <searchLayouts>
         <searchResultsAdditionalFields>clent_name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>agency_name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>sales_staff__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>syoudan_status__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>syoudan_start_date__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>

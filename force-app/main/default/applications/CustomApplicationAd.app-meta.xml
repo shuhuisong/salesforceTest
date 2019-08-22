@@ -16,18 +16,12 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>広告営業アプリ</label>
+    <label>広告営業アプリ（～2019.9。旧）</label>
     <navType>Standard</navType>
     <tabs>Project__c</tabs>
     <tabs>Activity__c</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>Menu__c</tabs>
-    <tabs>SeisakuSiharai__c</tabs>
-    <tabs>SeisakuSettei__c</tabs>
-    <tabs>CustomOpportunity__c</tabs>
-    <tabs>HakkanYosanMaster__c</tabs>
-    <tabs>CommonAmount__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>UtilityBar</utilityBar>
 </CustomApplication>

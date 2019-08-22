@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agency_keiyakugaku__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( ISPICKVAL ( menu_status__c , &quot;成約&quot; ) &amp;&amp; CONTAINS ( customers_type__c , &quot;代理店&quot; ) , total_fee2__c + agency_fee__c , 0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>メニューの状態：が 成約 かつ 代理店フラグに&quot;代理店&quot;という文字列が含まれる場合、総額請求金・契約金額（税抜、メニュー）+「代理店手数料（メニュー）</inlineHelpText>
+    <label>代理店契約額</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

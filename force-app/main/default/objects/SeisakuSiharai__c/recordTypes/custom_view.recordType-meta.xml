@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>custom_view</fullName>
     <active>true</active>
+    <compactLayoutAssignment>SeisakuSiharai</compactLayoutAssignment>
     <label>09:カスタム一覧</label>
     <picklistValues>
         <picklist>Type__c</picklist>

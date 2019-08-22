@@ -129,7 +129,9 @@
         <fullName>InvoiceAddressSet</fullName>
         <field>invoice_address__c</field>
         <formula>CASE (  invoice_address_list__c , 
-&quot;請求先住所&quot; , custom_opportunity__r.clent_name__r.BillingPostalCode + custom_opportunity__r.clent_name__r.BillingState + custom_opportunity__r.clent_name__r.BillingCity + custom_opportunity__r.clent_name__r.BillingStreet ,
+&quot;請求先住所&quot; , 
+						IF(custom_opportunity__r.agency_name__c == null,custom_opportunity__r.clent_name__r.BillingPostalCode + custom_opportunity__r.clent_name__r.BillingState + custom_opportunity__r.clent_name__r.BillingCity + custom_opportunity__r.clent_name__r.BillingStreet ,
+         custom_opportunity__r.agency_name__r.BillingPostalCode + custom_opportunity__r.agency_name__r.BillingState + custom_opportunity__r.agency_name__r.BillingCity + custom_opportunity__r.agency_name__r.BillingStreet ),									
 &quot;①&quot; ,  address_seikyu1__c ,
 &quot;②&quot; ,  address_seikyu2__c , 
 &quot;③&quot; ,  address_seikyu3__c , 
@@ -183,7 +185,7 @@ null )</formula>
         <criteriaItems>
             <field>Menu__c.RecordTypeId</field>
             <operation>equals</operation>
-            <value>06:抜刷,09:カスタム</value>
+            <value>07:セミナー,08:スクール,11:その他</value>
         </criteriaItems>
         <criteriaItems>
             <field>Menu__c.sales_date__c</field>

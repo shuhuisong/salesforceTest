@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 商談の状態が　検討C-Aと内定　の場合、総額請求金・契約金額（税抜、メニュー）の金額を表示 --></help>
     <label><!-- 検討中 --></label>
     <name>kentouchu__c</name>
 </CustomFieldTranslation>

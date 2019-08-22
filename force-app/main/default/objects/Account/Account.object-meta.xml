@@ -90,7 +90,7 @@
         <searchResultsAdditionalFields>user_id__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Oldcustomers_type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FlgAd__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>industry__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>industry_middle__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>client_last_updated__c</searchResultsAdditionalFields>
