@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NameLock</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED( Name )</errorConditionFormula>
+    <errorMessage>IDは編集禁止です。</errorMessage>
+</ValidationRule>

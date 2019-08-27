@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 誘導枠（TK_ADFRAME）の場合、「期限日」がメニューの「終了日」より遅ければチェックが入ります --></help>
+    <label><!-- 日付チェック --></label>
+    <name>hiduke_check__c</name>
+</CustomFieldTranslation>

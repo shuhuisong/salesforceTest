@@ -2807,6 +2807,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>HakkanYosanMaster__c.menu__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>HakkanYosanMaster__c.product_code__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -6272,6 +6277,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>SeisakuSettei__c.hiduke_check__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>SeisakuSettei__c.kind__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -7442,6 +7452,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Yosan__c.breport_baitai_shisyutsu__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Yosan__c.gousuu__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -7482,12 +7497,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Yosan__c.oldbaitai__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Yosan__c.product_code__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Yosan__c.published_page__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.report_account__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.report_baitai_saeki__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.report_baitai_shunyu__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Yosan__c.report_eigyou__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

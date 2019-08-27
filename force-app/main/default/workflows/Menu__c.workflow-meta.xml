@@ -8,7 +8,7 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/Lead_mail</template>
+        <template>addmail/Lead_mail</template>
     </alerts>
     <alerts>
         <fullName>PV_mail</fullName>
@@ -18,7 +18,7 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/PV_mail</template>
+        <template>addmail/PV_mail</template>
     </alerts>
     <alerts>
         <fullName>Tag_mail</fullName>
@@ -28,7 +28,7 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/Tag_mail</template>
+        <template>addmail/Tag_review</template>
     </alerts>
     <alerts>
         <fullName>WEB_mail</fullName>
@@ -38,17 +38,17 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/WEB_mail</template>
+        <template>addmail/WEB_report_review</template>
     </alerts>
     <alerts>
         <fullName>WEB_report</fullName>
-        <description>WEB担当レポート変更通知</description>
+        <description>WEBレポート変更</description>
         <protected>false</protected>
         <recipients>
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/WEB_report</template>
+        <template>addmail/WEB_report_change</template>
     </alerts>
     <alerts>
         <fullName>menu_create_mail</fullName>
@@ -58,7 +58,7 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/menu_create_mail</template>
+        <template>addmail/menu_new</template>
     </alerts>
     <alerts>
         <fullName>seisaku_assign</fullName>
@@ -68,7 +68,7 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/seisaku_assign</template>
+        <template>addmail/seisaku_assign</template>
     </alerts>
     <alerts>
         <fullName>yuudouhenkou</fullName>
@@ -78,7 +78,7 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/yuudouhenkou</template>
+        <template>addmail/yuudouhenkou</template>
     </alerts>
     <fieldUpdates>
         <fullName>AccountingDate1Set</fullName>

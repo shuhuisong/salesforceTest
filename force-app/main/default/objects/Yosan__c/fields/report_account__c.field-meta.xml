@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>report_account__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND ( 
+  RecordType.Name = &quot;収入&quot; , 
+  NOT ( ISBLANK ( Account__c ) ) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>レポート種別_クライアント</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

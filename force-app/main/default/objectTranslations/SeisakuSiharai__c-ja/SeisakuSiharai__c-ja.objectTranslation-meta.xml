@@ -373,6 +373,10 @@
         <name>AccountLock</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- IDは編集禁止です --></errorMessage>
+        <name>ID_Lock</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- メニューを選択してください --></errorMessage>
         <name>IsMenuTrue</name>
     </validationRules>

@@ -251,4 +251,8 @@
         <label><!-- UpdateStatus_9 --></label>
         <name>UpdateStatus_9</name>
     </quickActions>
+    <validationRules>
+        <errorMessage><!-- IDは編集禁止 --></errorMessage>
+        <name>ID_Lock</name>
+    </validationRules>
 </CustomObjectTranslation>

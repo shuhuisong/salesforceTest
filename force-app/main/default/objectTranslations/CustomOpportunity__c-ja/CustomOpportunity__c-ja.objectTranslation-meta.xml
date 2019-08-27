@@ -47,6 +47,10 @@
         <name>AccountLock</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- IDは編集禁止です。 --></errorMessage>
+        <name>NameLock</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- 否決理由を記入してください --></errorMessage>
         <name>Opportunity_rejected</name>
     </validationRules>

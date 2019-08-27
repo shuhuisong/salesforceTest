@@ -69,7 +69,14 @@ System.debug('DEBUG*****UpsertSeisakuSettei UPDATE ERROR：'+e.getMessage());
         settei.kind__c = params.content.issueType.name;
         //カテゴリー
         if(params.content.category.size() > 0){
-            settei.adcms_category__c = params.content.category[0].name;
+            settei.adcms_category__c = '';
+            for (integer count = 0; count < params.content.category.size(); count++) {
+                 if(params.content.category.size() == (count+1)){
+                    settei.adcms_category__c = settei.adcms_category__c + params.content.category[count].name;
+                 }else{
+                    settei.adcms_category__c = settei.adcms_category__c + params.content.category[count].name + ','; 
+                 }
+            }
         }
         //チェックリスト
         settei.backlog_check__c = params.content.description.replace('\n', '<br>');

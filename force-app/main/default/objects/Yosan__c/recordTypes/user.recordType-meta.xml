@@ -51,6 +51,53 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>oldbaitai__c</picklist>
+        <values>
+            <fullName>DMPレポーティング</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEBその他</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>その他</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>アンケート</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>カスタム</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>スクール</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>セミナー</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ブースト</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>抜刷</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>雑誌</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>shubetsu__c</picklist>
         <values>
             <fullName>予算</fullName>

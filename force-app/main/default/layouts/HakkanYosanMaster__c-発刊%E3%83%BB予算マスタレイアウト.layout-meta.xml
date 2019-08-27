@@ -9,6 +9,10 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>menu__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>

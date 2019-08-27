@@ -10,10 +10,5 @@
     <columns>UPDATEDBY_USER.ALIAS</columns>
     <columns>CORE.USERS.FULL_NAME</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>CREATED_DATE</field>
-        <operation>equals</operation>
-        <value>TODAY</value>
-    </filters>
     <label>全てのToDo</label>
 </ListView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Id_Lock</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED( user_id__c)</errorConditionFormula>
+    <errorMessage>クライアントIDは編集禁止です</errorMessage>
+</ValidationRule>

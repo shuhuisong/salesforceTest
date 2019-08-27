@@ -131,6 +131,10 @@
         <label><!-- 法人 --></label>
         <name>Business_Account</name>
     </recordTypes>
+    <validationRules>
+        <errorMessage><!-- クライアントIDは編集禁止です --></errorMessage>
+        <name>Id_Lock</name>
+    </validationRules>
     <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>
