@@ -7,10 +7,16 @@ global with sharing class UpsertSeisakuSettei {
         //課題ID
         String issue_Id = params.content.id;
 
-        List<SeisakuSettei__c> setteiList = [SELECT Id, Name,Backlog_Id__c,BacklogProjectName__c,backlog_title__c,kind__c,adcms_category__c
+        List<SeisakuSettei__c> setteiList = new List<SeisakuSettei__c>();
+        List<SeisakuSiharai__c> seisaku = [select Id from SeisakuSiharai__c where Name = :params.content.customFields[0].value limit 1];    
+        if(seisaku.size() != 0){
+        setteiList = [SELECT Id, Name,Backlog_Id__c,BacklogProjectName__c,backlog_title__c,kind__c,adcms_category__c
                                                    ,backlog_check__c,backlog_status__c,start_date__c,admail_by_date__c,seisaku_siharai__c,bucklog_url__c
                                                                    FROM SeisakuSettei__c 
-                                                                   WHERE Backlog_Id__c = : issue_Id LIMIT 1];
+//                                                                   WHERE Backlog_Id__c = : issue_Id LIMIT 1];
+                                                                   WHERE Backlog_Id__c = : issue_Id AND seisaku_siharai__c = :seisaku[0].id 
+                                                                   LIMIT 1];
+        }
             if(setteiList.size() == 0){
             // Backlog課題Idが一致する制作設定が存在しない場合、新規作成
             SeisakuSettei__c newSettei = new SeisakuSettei__c();
