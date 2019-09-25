@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>kind_picklist__c</fullName>
     <externalId>false</externalId>
-    <label>種別_選択リスト</label>
+    <label>種別</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -29,6 +29,86 @@
                 <fullName>その他</fullName>
                 <default>false</default>
                 <label>その他</label>
+            </value>
+            <value>
+                <fullName>【メール体裁記事広告】</fullName>
+                <default>false</default>
+                <label>【メール体裁記事広告】</label>
+            </value>
+            <value>
+                <fullName>【東洋経済編集部メール】</fullName>
+                <default>false</default>
+                <label>【東洋経済編集部メール】</label>
+            </value>
+            <value>
+                <fullName>【東洋経済メール（全配信）】</fullName>
+                <default>false</default>
+                <label>【東洋経済メール（全配信）】</label>
+            </value>
+            <value>
+                <fullName>【東洋経済ターゲティングメール】</fullName>
+                <default>false</default>
+                <label>【東洋経済ターゲティングメール】</label>
+            </value>
+            <value>
+                <fullName>オンライン単独（トラコスさんCMS制作）</fullName>
+                <default>false</default>
+                <label>オンライン単独（トラコスさんCMS制作）</label>
+            </value>
+            <value>
+                <fullName>オンライン単独（ディレクターCMS制作）</fullName>
+                <default>false</default>
+                <label>オンライン単独（ディレクターCMS制作）</label>
+            </value>
+            <value>
+                <fullName>オンライン単独（HTML制作）</fullName>
+                <default>false</default>
+                <label>オンライン単独（HTML制作）</label>
+            </value>
+            <value>
+                <fullName>誌面転載（トラコスさんCMS制作）</fullName>
+                <default>false</default>
+                <label>誌面転載（トラコスさんCMS制作）</label>
+            </value>
+            <value>
+                <fullName>誌面転載（ディレクターCMS制作）</fullName>
+                <default>false</default>
+                <label>誌面転載（ディレクターCMS制作）</label>
+            </value>
+            <value>
+                <fullName>事後レポート（トラコスさんCMS制作）</fullName>
+                <default>false</default>
+                <label>事後レポート（トラコスさんCMS制作）</label>
+            </value>
+            <value>
+                <fullName>【緊急】オンライン単独（CMS制作）</fullName>
+                <default>false</default>
+                <label>【緊急】オンライン単独（CMS制作）</label>
+            </value>
+            <value>
+                <fullName>【緊急】誌面転載（CMS制作）</fullName>
+                <default>false</default>
+                <label>【緊急】誌面転載（CMS制作）</label>
+            </value>
+            <value>
+                <fullName>誘導枠依頼（Aパターンのみ）</fullName>
+                <default>false</default>
+                <label>誘導枠依頼（Aパターンのみ）</label>
+            </value>
+            <value>
+                <fullName>誘導枠依頼（A/Bパターン）</fullName>
+                <default>false</default>
+                <label>誘導枠依頼（A/Bパターン）</label>
+            </value>
+            <value>
+                <fullName>誘導枠依頼（ディレクター自身が入稿）</fullName>
+                <default>false</default>
+                <label>誘導枠依頼（ディレクター自身が入稿）</label>
+            </value>
+            <value>
+                <fullName>制作依頼</fullName>
+                <default>false</default>
+                <label>制作依頼</label>
             </value>
         </valueSetDefinition>
     </valueSet>

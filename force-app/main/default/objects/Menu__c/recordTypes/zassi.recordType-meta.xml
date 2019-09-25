@@ -192,104 +192,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>except_basic_pack_a__c</picklist>
-        <values>
-            <fullName>PCインデックス</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PCトピックボード</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PCトレンドライブラリ</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>イメージ%E3%83%BBテキストSP</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>インタースティシャルPC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>インタースティシャルSP</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>インリード動画PC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>インリード動画SP</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ゲート%EF%BC%86レクタングル</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ターゲティングレクタングル</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ダブルレクタングル</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>テキストPCトレンドウォッチ</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>パネルSPヘッダー</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>パネルSP長期連載記事広告誘導</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ビューアブルレクタングル</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ビルボード%EF%BC%88動画%EF%BC%89</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ビルボード%EF%BC%88静止画%EF%BC%89</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ビルボードSP</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>レクタングルPC長期連載記事広告誘導</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>レクタングルエキスパンド</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>except_basic_pack_b__c</picklist>
-        <values>
-            <fullName>東洋経済オンライン編集部メール%E2%80%BB何本目指定も記入</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>東洋経済ターゲティングメール%E2%80%BB配信時間帯も記入</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>東洋経済メール%EF%BC%88全配信%EF%BC%89%E2%80%BB配信時間帯も記入</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>guarantee_pv_in__c</picklist>
         <values>
             <fullName>全て込み%EF%BC%881ページ目%EF%BC%89</fullName>
@@ -737,13 +639,6 @@
         <picklist>s_menu__c</picklist>
         <values>
             <fullName>雑誌</fullName>
-            <default>true</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>shubetsu__c</picklist>
-        <values>
-            <fullName>実績</fullName>
             <default>true</default>
         </values>
     </picklistValues>

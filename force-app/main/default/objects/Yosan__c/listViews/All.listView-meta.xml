@@ -3,6 +3,14 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>CREATED_DATE</columns>
+    <columns>shubetsu__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Yosan__c.Yosan</value>
+    </filters>
     <label>すべて選択</label>
 </ListView>

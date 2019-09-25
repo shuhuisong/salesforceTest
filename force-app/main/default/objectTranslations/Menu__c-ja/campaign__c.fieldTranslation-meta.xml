@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- 実績スナップショット用 --></help>
-    <label><!-- Oldメニュー --></label>
-    <name>Olds_menu__c</name>
+    <label><!-- キャンペーン --></label>
+    <name>campaign__c</name>
 </CustomFieldTranslation>

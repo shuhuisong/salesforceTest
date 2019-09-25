@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
+        <fullName>Insatsu_Hacchu</fullName>
+        <description>印刷所に発注</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/Insatsu_Hacchu</template>
+    </alerts>
+    <alerts>
         <fullName>Lead_create</fullName>
         <description>リード管理_入力</description>
         <protected>false</protected>
@@ -34,23 +44,31 @@
         <template>addmail/Lead_review</template>
     </alerts>
     <alerts>
-        <fullName>PV_mail</fullName>
+        <fullName>PV_create</fullName>
         <description>PV管理_入力</description>
         <protected>false</protected>
         <recipients>
-            <field>LastModifiedById</field>
-            <type>userLookup</type>
+            <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>addmail/PV_create</template>
     </alerts>
     <alerts>
-        <fullName>PV_review</fullName>
-        <description>PV管理_確認しました</description>
+        <fullName>PV_edit</fullName>
+        <description>PV管理_編集</description>
         <protected>false</protected>
         <recipients>
-            <field>LastModifiedById</field>
-            <type>userLookup</type>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/PV_edit</template>
+    </alerts>
+    <alerts>
+        <fullName>PV_review</fullName>
+        <description>PV管理_確認</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>addmail/PV_review</template>
@@ -111,6 +129,36 @@
         <template>addmail/WEB_report_tenpu</template>
     </alerts>
     <alerts>
+        <fullName>campaign_create</fullName>
+        <description>キャンペーン管理入力</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/campaign_create</template>
+    </alerts>
+    <alerts>
+        <fullName>campaign_edit</fullName>
+        <description>キャンペーン管理編集</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/campaign_edit</template>
+    </alerts>
+    <alerts>
+        <fullName>campaign_review</fullName>
+        <description>キャンペーン管理受領</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/campaign_review</template>
+    </alerts>
+    <alerts>
         <fullName>menu_boost</fullName>
         <description>ブースト作成時</description>
         <protected>false</protected>
@@ -120,6 +168,16 @@
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_change</fullName>
+        <description>メニュー納品・成約後の変更通知</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_change_mail</template>
     </alerts>
     <alerts>
         <fullName>menu_create_mail</fullName>

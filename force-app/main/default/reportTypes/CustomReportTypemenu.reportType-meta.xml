@@ -188,11 +188,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>except_basic_pack_a__c</field>
-            <table>Menu__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>lead_co__c</field>
             <table>Menu__c</table>
         </columns>
@@ -593,11 +588,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>shubetsu__c</field>
-            <table>Menu__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>s_honsuu__c</field>
             <table>Menu__c</table>
         </columns>
@@ -664,11 +654,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>operating_profit2__c</field>
-            <table>Menu__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>except_basic_pack_b__c</field>
             <table>Menu__c</table>
         </columns>
         <columns>

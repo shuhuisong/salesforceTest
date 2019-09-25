@@ -6,6 +6,7 @@
     <label>社名</label>
     <lookupFilter>
         <active>true</active>
+        <errorMessage>担当者に依頼してBP局内でのクライアントデータを作ってください</errorMessage>
         <filterItems>
             <field>Account.user_id__c</field>
             <operation>notEqual</operation>

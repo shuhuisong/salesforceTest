@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Backlogプロジェクト名 --></label>
+    <name>BacklogProjectName_picklist__c</name>
+    <picklistValues>
+        <masterLabel>社内広告用_CMS登録</masterLabel>
+        <translation><!-- 社内広告用_CMS登録 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>社内広告用_メルマガ</masterLabel>
+        <translation><!-- 社内広告用_メルマガ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>社内広告用_誘導枠</masterLabel>
+        <translation><!-- 社内広告用_誘導枠 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

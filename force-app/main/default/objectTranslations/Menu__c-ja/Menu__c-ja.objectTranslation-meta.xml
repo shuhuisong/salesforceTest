@@ -450,6 +450,10 @@
         <errorMessage><!-- 商談状態を成約にしてください --></errorMessage>
         <name>menu_status_check</name>
     </validationRules>
+    <validationRules>
+        <errorMessage><!-- 状態は編集できません --></errorMessage>
+        <name>validationtest</name>
+    </validationRules>
     <webLinks>
         <label><!-- ga_link --></label>
         <name>ga_link</name>

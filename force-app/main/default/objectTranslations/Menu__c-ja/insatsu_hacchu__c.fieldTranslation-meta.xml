@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Oldスナップショット用レコードタイプ --></label>
-    <name>s_record_type__c</name>
+    <label><!-- 印刷所に発注しました --></label>
+    <name>insatsu_hacchu__c</name>
 </CustomFieldTranslation>

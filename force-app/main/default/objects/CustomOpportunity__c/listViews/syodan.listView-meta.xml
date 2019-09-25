@@ -8,10 +8,10 @@
     <columns>order_menu__c</columns>
     <columns>syoudan_start_date__c</columns>
     <columns>syoudan_c_date__c</columns>
-    <columns>LAST_ACTIVITY</columns>
     <columns>fee_sum__c</columns>
     <columns>product_fee_sum__c</columns>
     <columns>product_cost_sum__c</columns>
+    <columns>LAST_UPDATE</columns>
     <filterScope>Everything</filterScope>
     <label>商談</label>
     <sharedTo>

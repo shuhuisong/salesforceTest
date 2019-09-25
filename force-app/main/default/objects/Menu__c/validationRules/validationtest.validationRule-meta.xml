@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validationtest</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED( menu_status__c )</errorConditionFormula>
+    <errorMessage>状態は編集できません</errorMessage>
+</ValidationRule>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>backlog_status_picklist__c</fullName>
     <externalId>false</externalId>
-    <label>ステータス_選択リスト</label>
+    <label>ステータス</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -21,19 +21,19 @@
                 <label>未対応</label>
             </value>
             <value>
-                <fullName>処理中</fullName>
+                <fullName>原稿制作中</fullName>
                 <default>false</default>
-                <label>処理中</label>
+                <label>原稿制作中</label>
             </value>
             <value>
-                <fullName>処理済み</fullName>
+                <fullName>校了</fullName>
                 <default>false</default>
-                <label>処理済み</label>
+                <label>校了</label>
             </value>
             <value>
-                <fullName>完了</fullName>
+                <fullName>公開</fullName>
                 <default>false</default>
-                <label>完了</label>
+                <label>公開</label>
             </value>
         </valueSetDefinition>
     </valueSet>

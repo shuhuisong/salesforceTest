@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- 種別_選択リスト --></label>
+    <label><!-- 種別 --></label>
     <name>kind_picklist__c</name>
+    <picklistValues>
+        <masterLabel>【メール体裁記事広告】</masterLabel>
+        <translation><!-- 【メール体裁記事広告】 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>【東洋経済ターゲティングメール】</masterLabel>
+        <translation><!-- 【東洋経済ターゲティングメール】 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>【東洋経済メール（全配信）】</masterLabel>
+        <translation><!-- 【東洋経済メール（全配信）】 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>【東洋経済編集部メール】</masterLabel>
+        <translation><!-- 【東洋経済編集部メール】 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>【緊急】オンライン単独（CMS制作）</masterLabel>
+        <translation><!-- 【緊急】オンライン単独（CMS制作） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>【緊急】誌面転載（CMS制作）</masterLabel>
+        <translation><!-- 【緊急】誌面転載（CMS制作） --></translation>
+    </picklistValues>
     <picklistValues>
         <masterLabel>その他</masterLabel>
         <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オンライン単独（HTML制作）</masterLabel>
+        <translation><!-- オンライン単独（HTML制作） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オンライン単独（ディレクターCMS制作）</masterLabel>
+        <translation><!-- オンライン単独（ディレクターCMS制作） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オンライン単独（トラコスさんCMS制作）</masterLabel>
+        <translation><!-- オンライン単独（トラコスさんCMS制作） --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>タスク</masterLabel>
@@ -15,7 +51,35 @@
         <translation><!-- バグ --></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>事後レポート（トラコスさんCMS制作）</masterLabel>
+        <translation><!-- 事後レポート（トラコスさんCMS制作） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>制作依頼</masterLabel>
+        <translation><!-- 制作依頼 --></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>要望</masterLabel>
         <translation><!-- 要望 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誌面転載（ディレクターCMS制作）</masterLabel>
+        <translation><!-- 誌面転載（ディレクターCMS制作） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誌面転載（トラコスさんCMS制作）</masterLabel>
+        <translation><!-- 誌面転載（トラコスさんCMS制作） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誘導枠依頼（A/Bパターン）</masterLabel>
+        <translation><!-- 誘導枠依頼（A/Bパターン） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誘導枠依頼（Aパターンのみ）</masterLabel>
+        <translation><!-- 誘導枠依頼（Aパターンのみ） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誘導枠依頼（ディレクター自身が入稿）</masterLabel>
+        <translation><!-- 誘導枠依頼（ディレクター自身が入稿） --></translation>
     </picklistValues>
 </CustomFieldTranslation>

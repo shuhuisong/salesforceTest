@@ -84,6 +84,10 @@
                 <behavior>Edit</behavior>
                 <field>menu_status__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>insatsu_hacchu__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>

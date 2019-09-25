@@ -298,6 +298,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>UpsertSeisakuSetteiTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>mkto_si__AddToMarketoCampaignController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -3926,11 +3930,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Menu__c.Olds_menu__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Menu__c.OpportunityLink__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4066,6 +4065,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Menu__c.campaign__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Menu__c.campaign_check_checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Menu__c.campaign_end_date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4181,16 +4190,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Menu__c.except_basic_pack_a__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Menu__c.except_basic_pack_b__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Menu__c.ga_data__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4232,6 +4231,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Menu__c.impressions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Menu__c.insatsu_hacchu__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4596,22 +4600,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Menu__c.s_gousuu__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Menu__c.s_honsuu__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Menu__c.s_menu__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Menu__c.s_record_type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4667,11 +4661,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Menu__c.seisakusiharai_recordount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Menu__c.shubetsu__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6392,6 +6381,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SeisakuSettei__c.BacklogProjectName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SeisakuSettei__c.BacklogProjectName_picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

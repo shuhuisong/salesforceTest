@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- ステータス_選択リスト --></label>
+    <label><!-- ステータス --></label>
     <name>backlog_status_picklist__c</name>
     <picklistValues>
-        <masterLabel>処理中</masterLabel>
-        <translation><!-- 処理中 --></translation>
+        <masterLabel>公開</masterLabel>
+        <translation><!-- 公開 --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>処理済み</masterLabel>
-        <translation><!-- 処理済み --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>完了</masterLabel>
-        <translation><!-- 完了 --></translation>
+        <masterLabel>原稿制作中</masterLabel>
+        <translation><!-- 原稿制作中 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>新規作成</masterLabel>
@@ -21,5 +17,9 @@
     <picklistValues>
         <masterLabel>未対応</masterLabel>
         <translation><!-- 未対応 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>校了</masterLabel>
+        <translation><!-- 校了 --></translation>
     </picklistValues>
 </CustomFieldTranslation>
