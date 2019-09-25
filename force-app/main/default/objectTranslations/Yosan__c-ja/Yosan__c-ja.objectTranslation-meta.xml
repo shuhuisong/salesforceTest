@@ -9,12 +9,12 @@
         <name>Account</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- 支出 --></label>
-        <name>Shisyutsu</name>
+        <label><!-- 実績 --></label>
+        <name>Jisseki</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- 収入 --></label>
-        <name>Shunyu</name>
+        <label><!-- 予算 --></label>
+        <name>Yosan</name>
     </recordTypes>
     <recordTypes>
         <label><!-- 営業担当者 --></label>

@@ -4,8 +4,8 @@
     <label><!-- 進行ステータス(その他制作・支払) --></label>
     <name>product_status2__c</name>
     <picklistValues>
-        <masterLabel>制作中</masterLabel>
-        <translation><!-- 制作中 --></translation>
+        <masterLabel>手配・制作中</masterLabel>
+        <translation><!-- 手配・制作中 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>発注</masterLabel>

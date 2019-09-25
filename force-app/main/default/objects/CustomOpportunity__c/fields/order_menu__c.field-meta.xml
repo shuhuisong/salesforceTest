@@ -7,7 +7,7 @@
     <summaryFilterItems>
         <field>Menu__c.menu_status__c</field>
         <operation>equals</operation>
-        <value>成約</value>
+        <value>成約・納品</value>
     </summaryFilterItems>
     <summaryForeignKey>Menu__c.custom_opportunity__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>

@@ -8,13 +8,13 @@
  * 2019/8/8:Sou:新規作成
  *----------------------------------------------------------------------------
  */
-trigger CustomOpportunityInsert on CustomOpportunity__c (after insert) {
+trigger CustomOpportunityInsert on CustomOpportunity__c (before insert) {
 CommonIdInsertHandler handler = new CommonIdInsertHandler(Trigger.isExecuting, Trigger.size);
 
-if(Trigger.isInsert && Trigger.isAfter){
+if(Trigger.isInsert && Trigger.isBefore){
 
       //採番処理を呼出す
-     handler.onAfterInsert(Trigger.new);
+     handler.customOppoBeforeInsert(Trigger.new);
 
   }
 }

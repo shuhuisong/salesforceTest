@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>address_seikyu5__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>郵便番号から入れてください</inlineHelpText>
     <label>請求先住所⑤</label>
     <length>255</length>
     <required>false</required>

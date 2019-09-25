@@ -27,14 +27,14 @@
                 <label>検討A</label>
             </value>
             <value>
-                <fullName>内定</fullName>
+                <fullName>内定・受注</fullName>
                 <default>false</default>
-                <label>内定</label>
+                <label>内定・受注</label>
             </value>
             <value>
-                <fullName>成約</fullName>
+                <fullName>成約・納品</fullName>
                 <default>false</default>
-                <label>成約</label>
+                <label>成約・納品</label>
             </value>
         </valueSetDefinition>
     </valueSet>

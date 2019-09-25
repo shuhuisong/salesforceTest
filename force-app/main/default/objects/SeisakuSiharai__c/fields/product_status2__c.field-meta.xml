@@ -17,9 +17,9 @@
                 <label>発注</label>
             </value>
             <value>
-                <fullName>制作中</fullName>
+                <fullName>手配・制作中</fullName>
                 <default>false</default>
-                <label>制作中</label>
+                <label>手配・制作中</label>
             </value>
             <value>
                 <fullName>納品</fullName>

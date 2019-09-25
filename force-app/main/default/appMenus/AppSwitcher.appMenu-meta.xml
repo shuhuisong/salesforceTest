@@ -116,4 +116,8 @@
         <name>SeminarbuCustombu</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>MediaEigyobu2</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

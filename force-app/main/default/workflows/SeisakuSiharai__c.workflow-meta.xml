@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>order_date_after_14</fullName>
+        <description>14日後アラート</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/order_date_after_14</template>
+    </alerts>
     <fieldUpdates>
         <fullName>RecordType_view</fullName>
         <field>RecordTypeId</field>
@@ -17,6 +27,15 @@
         <name>消費税率Set</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>check_90</fullName>
+        <field>after_14__c</field>
+        <literalValue>1</literalValue>
+        <name>90日チェック</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
         <protected>false</protected>
     </fieldUpdates>
     <fieldUpdates>
@@ -60,6 +79,37 @@
             <operation>notEqual</operation>
         </criteriaItems>
         <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>納品日から14日経っても請求書納品日がnull</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>SeisakuSiharai__c.delivery_date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SeisakuSiharai__c.invoice_arrival_date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SeisakuSiharai__c.after_14__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>order_date_after_14</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>check_90</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>SeisakuSiharai__c.delivery_date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
     </rules>
     <rules>
         <fullName>納品日チェック</fullName>

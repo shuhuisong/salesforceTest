@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>WEB_other</fullName>
     <active>true</active>
+    <compactLayoutAssignment>Menu</compactLayoutAssignment>
     <label>03:WEBその他</label>
     <picklistValues>
         <picklist>ad_feature__c</picklist>
@@ -342,11 +343,11 @@
     <picklistValues>
         <picklist>menu_status__c</picklist>
         <values>
-            <fullName>内定</fullName>
+            <fullName>内定%E3%83%BB受注</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>成約</fullName>
+            <fullName>成約%E3%83%BB納品</fullName>
             <default>false</default>
         </values>
         <values>
@@ -682,6 +683,13 @@
         <values>
             <fullName>記事中%EF%BC%88１%2F３%EF%BC%89</fullName>
             <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>s_menu__c</picklist>
+        <values>
+            <fullName>WEBその他</fullName>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>

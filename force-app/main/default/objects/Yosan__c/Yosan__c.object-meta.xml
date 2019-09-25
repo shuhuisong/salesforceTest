@@ -62,8 +62,8 @@
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>baitai__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>menu__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>account__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>user__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>shubetsu__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>hiduke__c</searchResultsAdditionalFields>

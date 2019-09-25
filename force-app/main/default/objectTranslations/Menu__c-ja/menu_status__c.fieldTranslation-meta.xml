@@ -3,12 +3,12 @@
     <label><!-- メニューの状態 --></label>
     <name>menu_status__c</name>
     <picklistValues>
-        <masterLabel>内定</masterLabel>
-        <translation><!-- 内定 --></translation>
+        <masterLabel>内定・受注</masterLabel>
+        <translation><!-- 内定・受注 --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>成約</masterLabel>
-        <translation><!-- 成約 --></translation>
+        <masterLabel>成約・納品</masterLabel>
+        <translation><!-- 成約・納品 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>検討A</masterLabel>

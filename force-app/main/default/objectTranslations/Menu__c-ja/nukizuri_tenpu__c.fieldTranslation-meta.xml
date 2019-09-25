@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 抜刷り、株主優待先住所などデータ添付 --></label>
+    <name>nukizuri_tenpu__c</name>
+</CustomFieldTranslation>

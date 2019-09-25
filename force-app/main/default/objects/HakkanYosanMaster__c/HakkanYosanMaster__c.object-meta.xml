@@ -59,7 +59,12 @@
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>baitai__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>gousuu__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>menu__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>product_code__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

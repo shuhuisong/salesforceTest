@@ -3,7 +3,7 @@
     <fullName>user__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>営業担当者</label>
+    <label>広告営業担当*</label>
     <referenceTo>User</referenceTo>
     <relationshipName>users</relationshipName>
     <required>false</required>

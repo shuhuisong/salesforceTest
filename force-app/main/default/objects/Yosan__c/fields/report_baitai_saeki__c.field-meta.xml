@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>report_baitai_saeki__c</fullName>
     <externalId>false</externalId>
-    <formula>NOT ( ISBLANK ( TEXT ( baitai__c ) ) )</formula>
+    <formula>NOT ( ISBLANK ( TEXT ( menu__c ) ) )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>レポート種別_媒体差益</label>
     <trackHistory>false</trackHistory>

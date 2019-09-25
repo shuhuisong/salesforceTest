@@ -68,11 +68,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>seisaku_director_old__c</field>
-            <table>CustomOpportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>syoudan_c_date__c</field>
             <table>CustomOpportunity__c</table>
         </columns>

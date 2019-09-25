@@ -12,14 +12,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>予算</fullName>
+                <fullName>収入</fullName>
                 <default>false</default>
-                <label>予算</label>
+                <label>収入</label>
             </value>
             <value>
-                <fullName>実績</fullName>
+                <fullName>支出</fullName>
                 <default>false</default>
-                <label>実績</label>
+                <label>支出</label>
             </value>
         </valueSetDefinition>
     </valueSet>

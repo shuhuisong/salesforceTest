@@ -4,14 +4,13 @@
     <externalId>false</externalId>
     <formula>OR ( 
   AND ( 
-    RecordType.Name = &quot;収入&quot; , 
-    NOT ( ISBLANK ( TEXT ( baitai__c ) ) ) ,
-    ISPICKVAL ( shubetsu__c , &quot;実績&quot; )
+    RecordType.Name = &quot;実績&quot; , 
+    NOT ( ISBLANK ( TEXT ( menu__c ) ) ) 
   ) ,
   AND ( 
-    RecordType.Name = &quot;収入&quot; , 
-    NOT ( ISBLANK ( TEXT ( baitai__c ) ) ) ,
-    ISPICKVAL ( shubetsu__c , &quot;予算&quot; )
+    RecordType.Name = &quot;予算&quot; , 
+    NOT ( ISBLANK ( TEXT ( menu__c ) ) ) ,
+    ISPICKVAL ( shubetsu__c , &quot;収入&quot; )
   )
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>

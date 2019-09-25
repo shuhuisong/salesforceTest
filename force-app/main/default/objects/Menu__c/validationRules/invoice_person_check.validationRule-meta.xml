@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>invoice_person_check</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( 
+  invoice_person__r.AccountId  &lt;&gt;  custom_opportunity__r.clent_name__r.Id ,
+  invoice_person__r.AccountId &lt;&gt;  custom_opportunity__r.agency_name__r.Id 
+)</errorConditionFormula>
+    <errorDisplayField>invoice_person__c</errorDisplayField>
+    <errorMessage>社名、もくしくは代理店社名に所属する取引先責任者を選択してください</errorMessage>
+</ValidationRule>

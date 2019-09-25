@@ -4,6 +4,15 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>企業担当者3</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.clent_name__c</field>
+            <operation>equals</operation>
+            <valueField>Contact.AccountId</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>C商談 (取引先責任者)</relationshipLabel>
     <relationshipName>role3</relationshipName>

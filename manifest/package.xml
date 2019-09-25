@@ -47,6 +47,7 @@
         <members>SiteRegisterControllerTest</members>
         <members>StaticclassForFlag</members>
         <members>UpsertSeisakuSettei</members>
+        <members>UpsertSeisakuSetteiTest</members>
         <members>mkto_si__AddToMarketoCampaignController</members>
         <members>mkto_si__AjaxServiceBaseController</members>
         <members>mkto_si__AjaxServiceController</members>
@@ -136,6 +137,8 @@
         <members>mkto_si__WatchListController</members>
         <members>mkto_si__WebActivityVO</members>
         <members>mkto_si__wwwMarketoComMktows</members>
+        <members>CommonIdInsertHandler</members>
+        <members>CommonIdInsertHandlerTest</members>
         <name>ApexClass</name>
     </types>
     <types>

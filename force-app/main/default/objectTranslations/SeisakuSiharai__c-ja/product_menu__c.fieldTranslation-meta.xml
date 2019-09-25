@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- 制作物・委託物・実施物 --></label>
+    <help><!-- 制作・支払・委託物・実施物など --></help>
+    <label><!-- 制作・支払項目 --></label>
     <name>product_menu__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他編集依頼</masterLabel>
+        <translation><!-- その他編集依頼 --></translation>
+    </picklistValues>
     <picklistValues>
         <masterLabel>イラスト</masterLabel>
         <translation><!-- イラスト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ウェブ制作</masterLabel>
+        <translation><!-- ウェブ制作 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>オンラインページ（CMS)</masterLabel>
@@ -15,6 +28,14 @@
         <translation><!-- オンラインページ（html） --></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>テープおこし</masterLabel>
+        <translation><!-- テープおこし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>デザイン</masterLabel>
+        <translation><!-- デザイン --></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>デザイン物</masterLabel>
         <translation><!-- デザイン物 --></translation>
     </picklistValues>
@@ -23,8 +44,8 @@
         <translation><!-- バナー --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>ポートレート</masterLabel>
-        <translation><!-- ポートレート --></translation>
+        <masterLabel>フォトライブラリー</masterLabel>
+        <translation><!-- フォトライブラリー --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>事後アンケート集計</masterLabel>
@@ -39,12 +60,16 @@
         <translation><!-- 会場関連費（事後） --></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>写真</masterLabel>
+        <translation><!-- 写真 --></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>動画</masterLabel>
         <translation><!-- 動画 --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>印刷物</masterLabel>
-        <translation><!-- 印刷物 --></translation>
+        <masterLabel>印刷会社</masterLabel>
+        <translation><!-- 印刷会社 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>原稿（ライティング）</masterLabel>
@@ -71,15 +96,15 @@
         <translation><!-- 機材オペレート --></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>経費（交通費ほか）</masterLabel>
+        <translation><!-- 経費（交通費ほか） --></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>編集プロダクション制作依頼</masterLabel>
         <translation><!-- 編集プロダクション制作依頼 --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>誌面デザイン</masterLabel>
-        <translation><!-- 誌面デザイン --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>講演者謝礼</masterLabel>
-        <translation><!-- 講演者謝礼 --></translation>
+        <masterLabel>謝礼</masterLabel>
+        <translation><!-- 謝礼 --></translation>
     </picklistValues>
 </CustomFieldTranslation>

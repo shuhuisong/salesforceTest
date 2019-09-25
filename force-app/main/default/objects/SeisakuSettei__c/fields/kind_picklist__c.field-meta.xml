@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kind_picklist__c</fullName>
+    <externalId>false</externalId>
+    <label>種別_選択リスト</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>タスク</fullName>
+                <default>false</default>
+                <label>タスク</label>
+            </value>
+            <value>
+                <fullName>バグ</fullName>
+                <default>false</default>
+                <label>バグ</label>
+            </value>
+            <value>
+                <fullName>要望</fullName>
+                <default>false</default>
+                <label>要望</label>
+            </value>
+            <value>
+                <fullName>その他</fullName>
+                <default>false</default>
+                <label>その他</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

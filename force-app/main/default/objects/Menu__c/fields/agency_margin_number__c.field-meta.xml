@@ -3,7 +3,7 @@
     <fullName>agency_margin_number__c</fullName>
     <externalId>false</externalId>
     <formula>CASE(TEXT(agency_margin__c),
-&#39;直&#39;,1,
+&#39;直&#39;,0,
 &#39;0％&#39;,0,
 &#39;15％&#39;,0.15,
 &#39;20％&#39;,0.20,

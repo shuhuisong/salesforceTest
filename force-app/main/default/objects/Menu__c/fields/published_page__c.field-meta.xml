@@ -12,6 +12,26 @@
         <restricted>true</restricted>
         <valueSetName>published_page</valueSetName>
         <valueSettings>
+            <controllingFieldValue>就職四季報企業研究インターンシップ版</controllingFieldValue>
+            <controllingFieldValue>就職四季報総合版</controllingFieldValue>
+            <controllingFieldValue>就職四季報女子版</controllingFieldValue>
+            <controllingFieldValue>就職四季報優良中堅企業版</controllingFieldValue>
+            <valueName>カバー前後</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>就職四季報企業研究インターンシップ版</controllingFieldValue>
+            <controllingFieldValue>JAPAN COMPANY HANDBOOK</controllingFieldValue>
+            <controllingFieldValue>都市データパック</controllingFieldValue>
+            <controllingFieldValue>会社四季報</controllingFieldValue>
+            <controllingFieldValue>会社四季報ワイド版</controllingFieldValue>
+            <controllingFieldValue>会社四季報プロ500</controllingFieldValue>
+            <controllingFieldValue>会社四季報未上場会社版</controllingFieldValue>
+            <controllingFieldValue>就職四季報総合版</controllingFieldValue>
+            <controllingFieldValue>就職四季報女子版</controllingFieldValue>
+            <controllingFieldValue>就職四季報優良中堅企業版</controllingFieldValue>
+            <valueName>前付</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>JAPAN COMPANY HANDBOOK</controllingFieldValue>
             <controllingFieldValue>都市データパック</controllingFieldValue>
             <controllingFieldValue>一橋ビジネスレビュー</controllingFieldValue>
@@ -23,19 +43,6 @@
             <controllingFieldValue>会社四季報未上場会社版</controllingFieldValue>
             <controllingFieldValue>役員四季報</controllingFieldValue>
             <valueName>表2</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>JAPAN COMPANY HANDBOOK</controllingFieldValue>
-            <controllingFieldValue>都市データパック</controllingFieldValue>
-            <controllingFieldValue>会社四季報</controllingFieldValue>
-            <controllingFieldValue>会社四季報ワイド版</controllingFieldValue>
-            <controllingFieldValue>会社四季報プロ500</controllingFieldValue>
-            <controllingFieldValue>会社四季報未上場会社版</controllingFieldValue>
-            <controllingFieldValue>就職四季報総合版</controllingFieldValue>
-            <controllingFieldValue>就職四季報女子版</controllingFieldValue>
-            <controllingFieldValue>就職四季報優良中堅企業版</controllingFieldValue>
-            <controllingFieldValue>就職四季報企業研究インターンシップ版</controllingFieldValue>
-            <valueName>前付</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>JAPAN COMPANY HANDBOOK</controllingFieldValue>
@@ -168,6 +175,11 @@
         <valueSettings>
             <controllingFieldValue>東洋経済オンライン</controllingFieldValue>
             <valueName>東洋経済オンライン編集部メール</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>東洋経済オンライン</controllingFieldValue>
+            <controllingFieldValue>会社四季報オンライン</controllingFieldValue>
+            <valueName>東洋経済メール</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>会社四季報オンライン</controllingFieldValue>
@@ -306,13 +318,6 @@
             <controllingFieldValue>会社四季報</controllingFieldValue>
             <controllingFieldValue>会社四季報ワイド版</controllingFieldValue>
             <valueName>表3対向</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>就職四季報総合版</controllingFieldValue>
-            <controllingFieldValue>就職四季報女子版</controllingFieldValue>
-            <controllingFieldValue>就職四季報優良中堅企業版</controllingFieldValue>
-            <controllingFieldValue>就職四季報企業研究インターンシップ版</controllingFieldValue>
-            <valueName>カバー前後</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

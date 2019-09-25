@@ -1,5 +1,7 @@
 @RestResource(urlMapping='/ups_ss')
 global with sharing class UpsertSeisakuSettei {
+    private static final String backlogUrl = Label.BACKLOG_URL;
+    
     @HttpPost
     Webservice static void upsertSeisakuSettei(){
         RestRequest req = RestContext.request;
@@ -115,7 +117,7 @@ System.debug('DEBUG*****UpsertSeisakuSettei UPDATE ERROR：'+e.getMessage());
         }
         //BacklogURL
         if(settei.bucklog_url__c == null){ 
-        settei.bucklog_url__c = 'https://tykz.backlog.jp/view/' + params.project.projectKey + '-' + params.content.key_id;
+        settei.bucklog_url__c = backlogUrl + params.project.projectKey + '-' + params.content.key_id;
         }
     System.debug(LoggingLevel.DEBUG, '#UpsertSeisakuSettei05__：\n①__:' + settei + '\n②__:' + '' + '\n③__:' + +'\n④__:' + +'\n⑤:' + 88);
         return settei;

@@ -6,6 +6,8 @@
     <columns>backlog_status__c</columns>
     <columns>CREATED_DATE</columns>
     <columns>seisaku_director__c</columns>
+    <columns>adcms_category__c</columns>
+    <columns>kind_picklist__c</columns>
     <filterScope>Everything</filterScope>
     <label>すべて選択</label>
 </ListView>

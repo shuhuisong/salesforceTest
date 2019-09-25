@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tanto</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>SUBJECT</columns>
+    <columns>CustomComment__c</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>担当別</label>
+</ListView>

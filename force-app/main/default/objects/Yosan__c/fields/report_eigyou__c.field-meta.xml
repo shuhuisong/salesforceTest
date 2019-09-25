@@ -2,10 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>report_eigyou__c</fullName>
     <externalId>false</externalId>
-    <formula>AND ( 
-  RecordType.Name = &quot;収入&quot; , 
-  NOT ( ISBLANK ( user__c ) ) 
-)</formula>
+    <formula>NOT ( ISBLANK ( user_sum__c ) )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>レポート種別_営業</label>
     <trackHistory>false</trackHistory>

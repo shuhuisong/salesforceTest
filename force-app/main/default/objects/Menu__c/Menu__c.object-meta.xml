@@ -68,7 +68,6 @@
         <searchResultsAdditionalFields>client_name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>sales_staff__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>seisaku_director__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>menu_status__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>

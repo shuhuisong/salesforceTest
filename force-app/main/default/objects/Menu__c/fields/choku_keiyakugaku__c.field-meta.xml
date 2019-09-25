@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>choku_keiyakugaku__c</fullName>
     <externalId>false</externalId>
-    <formula>IF ( ISPICKVAL ( menu_status__c , &quot;成約&quot; ) &amp;&amp; ISBLANK ( customers_type__c ) , total_fee2__c , 0 )</formula>
+    <formula>IF ( ISPICKVAL ( menu_status__c , &quot;成約・納品&quot; ) &amp;&amp; customers_type__c &lt;&gt; &quot;代理店&quot; , total_fee2__c , 0 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>メニューの状態：が 成約 かつ 代理店フラグに&quot;代理店&quot;という文字列が含まれない場合、総額請求金・契約金額（税抜、メニュー）</inlineHelpText>
+    <inlineHelpText>メニューの状態：が 成約 かつ 代理店フラグに&quot;代理店&quot;という文字列が含まれていない場合、総額請求金・契約金額（税抜、メニュー）</inlineHelpText>
     <label>直契約額</label>
     <precision>18</precision>
     <required>false</required>

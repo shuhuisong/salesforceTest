@@ -52,9 +52,19 @@
                 <label>オンライン抜刷</label>
             </value>
             <value>
-                <fullName>集客</fullName>
+                <fullName>集客（メルマガ）</fullName>
                 <default>false</default>
-                <label>集客</label>
+                <label>集客（メルマガ）</label>
+            </value>
+            <value>
+                <fullName>集客（メルマガDM）</fullName>
+                <default>false</default>
+                <label>集客（メルマガDM）</label>
+            </value>
+            <value>
+                <fullName>企画運営</fullName>
+                <default>false</default>
+                <label>企画運営</label>
             </value>
             <value>
                 <fullName>運営（集客含む）</fullName>

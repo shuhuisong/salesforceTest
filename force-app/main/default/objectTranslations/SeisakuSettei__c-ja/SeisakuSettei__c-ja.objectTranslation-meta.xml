@@ -27,4 +27,8 @@
         <errorMessage><!-- 取引禁止のクライアントです。 --></errorMessage>
         <name>AccountLock</name>
     </validationRules>
+    <validationRules>
+        <errorMessage><!-- IDは編集禁止です --></errorMessage>
+        <name>NameLock</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -8,14 +8,14 @@
  * 2019/8/8:Sou:新規作成
  *----------------------------------------------------------------------------
  */
-trigger SeisakuSetteiInsert on SeisakuSettei__c (after insert) {
+trigger SeisakuSetteiInsert on SeisakuSettei__c (before insert) {
 
 CommonIdInsertHandler handler = new CommonIdInsertHandler(Trigger.isExecuting, Trigger.size);
 
-if(Trigger.isInsert && Trigger.isAfter){
+if(Trigger.isInsert && Trigger.isBefore){
 
       //採番処理を呼出す
-     handler.onAfterInsert(Trigger.new);
+     handler.seiSetteiBeforeInsert(Trigger.new);
 
   }
 }

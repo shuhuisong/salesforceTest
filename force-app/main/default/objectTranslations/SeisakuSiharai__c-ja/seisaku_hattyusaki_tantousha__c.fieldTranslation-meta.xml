@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 発注先担当者 --></label>
+    <name>seisaku_hattyusaki_tantousha__c</name>
+    <relationshipLabel><!-- 制作・支払 --></relationshipLabel>
+</CustomFieldTranslation>

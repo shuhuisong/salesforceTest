@@ -4,7 +4,7 @@
     <active>true</active>
     <label>実績</label>
     <picklistValues>
-        <picklist>baitai__c</picklist>
+        <picklist>menu__c</picklist>
         <values>
             <fullName>DMPレポーティング</fullName>
             <default>false</default>
@@ -53,19 +53,11 @@
     <picklistValues>
         <picklist>shubetsu__c</picklist>
         <values>
-            <fullName>一次推計</fullName>
+            <fullName>収入</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>予算</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>二次推計</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>実績</fullName>
+            <fullName>支出</fullName>
             <default>false</default>
         </values>
     </picklistValues>

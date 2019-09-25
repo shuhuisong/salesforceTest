@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>magazine_fee__c</fullName>
     <externalId>false</externalId>
-    <label>掲載料金（グロス、税別）</label>
+    <label>掲載料金・受注料金（グロス、税別）</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

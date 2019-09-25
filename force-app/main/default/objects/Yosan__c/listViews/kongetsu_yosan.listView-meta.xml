@@ -16,7 +16,7 @@
     <filters>
         <field>RECORDTYPE</field>
         <operation>equals</operation>
-        <value>Yosan__c.Shunyu</value>
+        <value>Yosan__c.Jisseki</value>
     </filters>
     <label>今月の予算</label>
 </ListView>

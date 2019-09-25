@@ -65,7 +65,19 @@
     <picklistValues>
         <picklist>product_menu__c</picklist>
         <values>
+            <fullName>その他</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>その他編集依頼</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>イラスト</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ウェブ制作</fullName>
             <default>false</default>
         </values>
         <values>
@@ -77,6 +89,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>テープおこし</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>デザイン</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>デザイン物</fullName>
             <default>false</default>
         </values>
@@ -85,7 +105,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>ポートレート</fullName>
+            <fullName>フォトライブラリー</fullName>
             <default>false</default>
         </values>
         <values>
@@ -101,11 +121,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>写真</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>動画</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>印刷物</fullName>
+            <fullName>印刷会社</fullName>
             <default>false</default>
         </values>
         <values>
@@ -133,22 +157,22 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>経費%EF%BC%88交通費ほか%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>編集プロダクション制作依頼</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>誌面デザイン</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>講演者謝礼</fullName>
+            <fullName>謝礼</fullName>
             <default>false</default>
         </values>
     </picklistValues>
     <picklistValues>
         <picklist>product_status2__c</picklist>
         <values>
-            <fullName>制作中</fullName>
+            <fullName>手配%E3%83%BB制作中</fullName>
             <default>false</default>
         </values>
         <values>

@@ -3,7 +3,16 @@
     <fullName>agency_person__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>代理店担当者(窓口)</label>
+    <label>代理店担当者（窓口）</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.agency_name__c</field>
+            <operation>equals</operation>
+            <valueField>Contact.AccountId</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>C商談 (代理店担当者(窓口))</relationshipLabel>
     <relationshipName>agency1</relationshipName>

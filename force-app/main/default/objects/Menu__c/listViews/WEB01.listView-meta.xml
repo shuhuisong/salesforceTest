@@ -9,7 +9,6 @@
     <columns>baitai_name__c</columns>
     <columns>CREATEDBY_USER</columns>
     <columns>LAST_UPDATE</columns>
-    <columns>seisaku_director__c</columns>
     <columns>accounting_date__c</columns>
     <columns>contract_money_tax__c</columns>
     <filterScope>Everything</filterScope>

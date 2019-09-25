@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kakkk</fullName>
+    <columns>NAME</columns>
+    <columns>clent_name__c</columns>
+    <columns>sales_staff__c</columns>
+    <columns>syoudan_status__c</columns>
+    <columns>order_menu__c</columns>
+    <columns>syoudan_start_date__c</columns>
+    <columns>syoudan_c_date__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>fee_sum__c</columns>
+    <columns>product_fee_sum__c</columns>
+    <columns>product_cost_sum__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>商談の状態について</label>
+</ListView>

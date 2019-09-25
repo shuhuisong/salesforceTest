@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- メニューの状態：が 成約 かつ 代理店フラグに&quot;代理店&quot;という文字列が含まれない場合、総額請求金・契約金額（税抜、メニュー） --></help>
+    <help><!-- メニューの状態：が 成約 かつ 代理店フラグに&quot;代理店&quot;という文字列が含まれていない場合、総額請求金・契約金額（税抜、メニュー） --></help>
     <label><!-- 直契約額 --></label>
     <name>choku_keiyakugaku__c</name>
 </CustomFieldTranslation>

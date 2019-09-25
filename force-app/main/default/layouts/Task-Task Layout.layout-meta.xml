@@ -15,10 +15,6 @@
                 <field>Subject</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CustomComment__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>OwnerId</field>
             </layoutItems>
@@ -122,7 +118,6 @@
     </layoutSections>
     <miniLayout>
         <fields>Subject</fields>
-        <fields>Description</fields>
         <fields>OwnerId</fields>
         <fields>WhoId</fields>
         <fields>ActivityDate</fields>

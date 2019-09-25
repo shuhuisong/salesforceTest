@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- 掲載料金（グロス、税別） --></label>
+    <label><!-- 掲載料金・受注料金（グロス、税別） --></label>
     <name>magazine_fee__c</name>
 </CustomFieldTranslation>

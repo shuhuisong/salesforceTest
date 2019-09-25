@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <label>期間内にリード達成した場合の対応</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

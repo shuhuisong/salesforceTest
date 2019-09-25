@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>customers_type__c</fullName>
     <externalId>false</externalId>
-    <formula>TEXT(seisaku_siharai__r.menu__r.custom_opportunity__r.agency_name__r.FlgAd__c)</formula>
+    <formula>IF ( CONTAINS ( TEXT ( seisaku_siharai__r.menu__r.custom_opportunity__r.agency_name__r.FlgAd__c ) , &quot;代理店&quot; ) , &quot;代理店&quot; , null )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>代理店フラグ</label>
     <required>false</required>

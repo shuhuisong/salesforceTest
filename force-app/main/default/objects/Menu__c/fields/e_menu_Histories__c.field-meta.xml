@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>e_menu_Histories__c</fullName>
+    <externalId>false</externalId>
+    <formula>&#39;https://cs5.lightning.force.com/lightning/r/&#39; + Id + &#39;/related/Histories/view&#39;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>出力用_メニューの履歴</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

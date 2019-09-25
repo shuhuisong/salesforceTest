@@ -60,7 +60,12 @@
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>menu_type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>month__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>common_amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>divide__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

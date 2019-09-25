@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- 制作費（ネット、税別） --></label>
+    <label><!-- 広告制作費（ネット、税別） --></label>
     <name>product_fee__c</name>
 </CustomFieldTranslation>

@@ -6,10 +6,16 @@
     <label>代理店社名</label>
     <lookupFilter>
         <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
         <filterItems>
             <field>Account.FlgAd__c</field>
             <operation>equals</operation>
             <value>代理店</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.FlgAd__c</field>
+            <operation>equals</operation>
+            <value>広告主かつ代理店</value>
         </filterItems>
         <isOptional>false</isOptional>
     </lookupFilter>

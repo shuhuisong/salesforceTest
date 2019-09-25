@@ -403,11 +403,11 @@
     <picklistValues>
         <picklist>menu_status__c</picklist>
         <values>
-            <fullName>内定</fullName>
+            <fullName>内定%E3%83%BB受注</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>成約</fullName>
+            <fullName>成約%E3%83%BB納品</fullName>
             <default>false</default>
         </values>
         <values>
@@ -426,6 +426,10 @@
     <picklistValues>
         <picklist>menu_type__c</picklist>
         <values>
+            <fullName>企画運営</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>受講料</fullName>
             <default>false</default>
         </values>
@@ -438,7 +442,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>集客</fullName>
+            <fullName>集客%EF%BC%88メルマガ%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>集客%EF%BC%88メルマガDM%EF%BC%89</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -751,6 +759,13 @@
         <values>
             <fullName>記事中%EF%BC%88１%2F３%EF%BC%89</fullName>
             <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>s_menu__c</picklist>
+        <values>
+            <fullName>セミナー</fullName>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>

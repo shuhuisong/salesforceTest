@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 発注日から90日たっても請求書の到着日がブランクの場合、チェックが入ります --></help>
+    <label><!-- 14日経過チェック --></label>
+    <name>after_14__c</name>
+</CustomFieldTranslation>

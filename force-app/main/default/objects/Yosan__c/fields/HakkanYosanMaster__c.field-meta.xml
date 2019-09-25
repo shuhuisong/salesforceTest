@@ -3,7 +3,7 @@
     <fullName>HakkanYosanMaster__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>コピー元発刊予算マスタ</label>
+    <label>Oldコピー元発刊予算マスタ</label>
     <referenceTo>HakkanYosanMaster__c</referenceTo>
     <relationshipLabel>予算</relationshipLabel>
     <relationshipName>XtXW</relationshipName>

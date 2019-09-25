@@ -3,7 +3,7 @@
     <fullName>menu_status</fullName>
     <active>true</active>
     <errorConditionFormula>AND(
-TEXT(menu_status__c) == &#39;成約&#39;,
+TEXT(menu_status__c) == &#39;成約・納品&#39;,
 				 invoice_address__c == null,
 				  invoice_person__c == null
 )</errorConditionFormula>

@@ -458,8 +458,8 @@ public with sharing class SansanNameCardBaseBatch implements Database.Batchable<
                 nameCardData.exchangeDate = null;
             }
 
-            // 名刺交換日が未設定か取り込み対象名刺交換日(以降)以前の場合当該名刺はスキップ
-            if (nameCardData.exchangeDate == null || nameCardData.exchangeDate < startExchangeDate) {
+            // 名刺交換日が未設定か取り込み対象名刺交換日(以降)以前の場合当該名刺はスキップ(dev02確認用途として1980-01-01以外の名刺はスキッ)
+            if (nameCardData.exchangeDate == null || nameCardData.exchangeDate != Date.valueOf('1980-01-01')) {
                 continue;
             }
 

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 実績スナップショット用 --></help>
+    <label><!-- 予算名 --></label>
+    <name>s_yosanmei__c</name>
+</CustomFieldTranslation>

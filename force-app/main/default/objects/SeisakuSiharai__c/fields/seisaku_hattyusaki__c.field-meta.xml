@@ -3,7 +3,17 @@
     <fullName>seisaku_hattyusaki__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
+    <inlineHelpText>個人の方は取引先はなしで選択して、取引先責任者で名前を検索して選択</inlineHelpText>
     <label>制作発注先</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>法人</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>制作・支払</relationshipLabel>
     <relationshipName>vKhP</relationshipName>

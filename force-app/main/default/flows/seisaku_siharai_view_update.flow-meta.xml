@@ -668,7 +668,7 @@
             <label>メニューがブースト</label>
         </rules>
     </decisions>
-    <interviewLabel>seisaku_siharai_view_update-8_InterviewLabel</interviewLabel>
+    <interviewLabel>seisaku_siharai_view_update-9_InterviewLabel</interviewLabel>
     <label>制作・支払いの一覧画面制御</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -2489,7 +2489,7 @@
         <object>SeisakuSiharai__c</object>
     </recordUpdates>
     <startElementReference>myDecision</startElementReference>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

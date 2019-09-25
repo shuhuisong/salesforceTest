@@ -2,7 +2,8 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>product_menu__c</fullName>
     <externalId>false</externalId>
-    <label>制作物・委託物・実施物</label>
+    <inlineHelpText>制作・支払・委託物・実施物など</inlineHelpText>
+    <label>制作・支払項目</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -26,9 +27,9 @@
                 <label>原稿（ライティング）</label>
             </value>
             <value>
-                <fullName>誌面デザイン</fullName>
+                <fullName>デザイン</fullName>
                 <default>false</default>
-                <label>誌面デザイン</label>
+                <label>デザイン</label>
             </value>
             <value>
                 <fullName>バナー</fullName>
@@ -46,9 +47,9 @@
                 <label>図</label>
             </value>
             <value>
-                <fullName>ポートレート</fullName>
+                <fullName>写真</fullName>
                 <default>false</default>
-                <label>ポートレート</label>
+                <label>写真</label>
             </value>
             <value>
                 <fullName>動画</fullName>
@@ -71,9 +72,9 @@
                 <label>デザイン物</label>
             </value>
             <value>
-                <fullName>印刷物</fullName>
+                <fullName>印刷会社</fullName>
                 <default>false</default>
-                <label>印刷物</label>
+                <label>印刷会社</label>
             </value>
             <value>
                 <fullName>告知関連</fullName>
@@ -101,14 +102,44 @@
                 <label>取材有識者謝礼</label>
             </value>
             <value>
-                <fullName>講演者謝礼</fullName>
+                <fullName>謝礼</fullName>
                 <default>false</default>
-                <label>講演者謝礼</label>
+                <label>謝礼</label>
             </value>
             <value>
                 <fullName>編集プロダクション制作依頼</fullName>
                 <default>false</default>
                 <label>編集プロダクション制作依頼</label>
+            </value>
+            <value>
+                <fullName>経費（交通費ほか）</fullName>
+                <default>false</default>
+                <label>経費（交通費ほか）</label>
+            </value>
+            <value>
+                <fullName>その他編集依頼</fullName>
+                <default>false</default>
+                <label>その他編集依頼</label>
+            </value>
+            <value>
+                <fullName>ウェブ制作</fullName>
+                <default>false</default>
+                <label>ウェブ制作</label>
+            </value>
+            <value>
+                <fullName>フォトライブラリー</fullName>
+                <default>false</default>
+                <label>フォトライブラリー</label>
+            </value>
+            <value>
+                <fullName>テープおこし</fullName>
+                <default>false</default>
+                <label>テープおこし</label>
+            </value>
+            <value>
+                <fullName>その他</fullName>
+                <default>false</default>
+                <label>その他</label>
             </value>
         </valueSetDefinition>
     </valueSet>

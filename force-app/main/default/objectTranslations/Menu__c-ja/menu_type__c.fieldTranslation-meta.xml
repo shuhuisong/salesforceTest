@@ -47,6 +47,10 @@
         <translation><!-- メールタイアップ --></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>企画運営</masterLabel>
+        <translation><!-- 企画運営 --></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>写真・画像２次使用料</masterLabel>
         <translation><!-- 写真・画像２次使用料 --></translation>
     </picklistValues>
@@ -95,8 +99,12 @@
         <translation><!-- 運営（集客含む） --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>集客</masterLabel>
-        <translation><!-- 集客 --></translation>
+        <masterLabel>集客（メルマガDM）</masterLabel>
+        <translation><!-- 集客（メルマガDM） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>集客（メルマガ）</masterLabel>
+        <translation><!-- 集客（メルマガ） --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>雑誌</masterLabel>

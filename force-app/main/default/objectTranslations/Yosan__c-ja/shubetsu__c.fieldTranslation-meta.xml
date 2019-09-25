@@ -3,11 +3,11 @@
     <label><!-- 種別 --></label>
     <name>shubetsu__c</name>
     <picklistValues>
-        <masterLabel>予算</masterLabel>
-        <translation><!-- 予算 --></translation>
+        <masterLabel>収入</masterLabel>
+        <translation><!-- 収入 --></translation>
     </picklistValues>
     <picklistValues>
-        <masterLabel>実績</masterLabel>
-        <translation><!-- 実績 --></translation>
+        <masterLabel>支出</masterLabel>
+        <translation><!-- 支出 --></translation>
     </picklistValues>
 </CustomFieldTranslation>

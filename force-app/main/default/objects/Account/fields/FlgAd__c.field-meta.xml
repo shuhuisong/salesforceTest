@@ -20,6 +20,11 @@
                 <default>false</default>
                 <label>代理店</label>
             </value>
+            <value>
+                <fullName>広告主かつ代理店</fullName>
+                <default>false</default>
+                <label>広告主かつ代理店</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

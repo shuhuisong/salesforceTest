@@ -10,4 +10,8 @@
         <masterLabel>広告主</masterLabel>
         <translation><!-- 広告主 --></translation>
     </picklistValues>
+    <picklistValues>
+        <masterLabel>広告主かつ代理店</masterLabel>
+        <translation><!-- 広告主かつ代理店 --></translation>
+    </picklistValues>
 </CustomFieldTranslation>

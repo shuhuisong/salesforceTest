@@ -11,9 +11,12 @@
 @isTest
 private class CommonIdInsertHandlerTest {
     //取引先から行動までの主従オブジェクトのIDを採番する
-    static testMethod void unitTest1() {
+    @testSetup
+    static void commonSetupTest() {
         IdNumberingInsert__c idNumber = new IdNumberingInsert__c(AccountID__c = 1);
-        insert idNumber;
+        insert idNumber;  
+    }
+    static testMethod void unitTest1() {
         //取引先の新規入力
         list<Account> accnt = new list<Account>();
         Account listAccnt2 = new Account(name = 'Test_00001',user_id__c='00001');
@@ -103,9 +106,7 @@ private class CommonIdInsertHandlerTest {
         Event listevent6 = new Event(Subject='Test_00001',OwnerId='0057F000001Zc39QAC',StartDateTime=Datetime.now(),EndDateTime=Datetime.now(),WhatId=Accnt3.ID);
         insert event2;
     }
-        static testMethod void unitTest2() {
-        IdNumberingInsert__c idNumber = new IdNumberingInsert__c(AccountID__c = 1);
-        insert idNumber;
+    static testMethod void unitTest2() {
         //取引先の新規入力
         Account accnt = new Account(name = 'Test_00002',user_id__c='00002',last_opp_id__c=1,last_act_id__c=1);
         insert accnt;
@@ -141,9 +142,7 @@ private class CommonIdInsertHandlerTest {
         Event event2 = new Event(Subject='Test_00002',OwnerId='0057F000001Zc39QAC',StartDateTime=Datetime.now(),EndDateTime=Datetime.now(),WhatId=Accnt2.ID);
         insert event2;
     }
-        static testMethod void unitTest3() {
-        IdNumberingInsert__c idNumber = new IdNumberingInsert__c(AccountID__c = 1);
-        insert idNumber;
+    static testMethod void unitTest3() {
         //取引先の新規入力
         Account accnt = new Account(name = '1',user_id__c='1',BizCardExchangeDate__c = Date.today());
         insert accnt;
@@ -179,9 +178,7 @@ private class CommonIdInsertHandlerTest {
         Task task2 = new Task(Subject='1003',OwnerId='0057F000001Zc39QAC',WhatId=Accnt2.ID);
         insert task2;
     }
-        static testMethod void unitTest4() {
-        IdNumberingInsert__c idNumber = new IdNumberingInsert__c(AccountID__c = 1);
-        insert idNumber;
+    static testMethod void unitTest4() {
         //取引先の新規入力
         Account accnt = new Account(name = 'Test_00001',user_id__c='00001');
         insert accnt;

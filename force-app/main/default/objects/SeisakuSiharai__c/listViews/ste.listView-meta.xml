@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ste</fullName>
+    <columns>NAME</columns>
+    <columns>e_account__c</columns>
+    <columns>menu_type__c</columns>
+    <columns>event_date__c</columns>
+    <columns>start_date__c</columns>
+    <columns>seisaku_director__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>menu_type__c</field>
+        <operation>equals</operation>
+        <value>セミナー,スクール</value>
+    </filters>
+    <label>進行ステータス（その他、制作・支払い）</label>
+</ListView>

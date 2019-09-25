@@ -53,7 +53,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>活動</label>
+    <label>カスタム活動</label>
     <nameField>
         <displayFormat>{0000}</displayFormat>
         <label>NO</label>

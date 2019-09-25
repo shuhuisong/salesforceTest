@@ -1,54 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
-        <fullName>Lead_mail</fullName>
-        <description>リード管理_確認しました</description>
+        <fullName>Lead_create</fullName>
+        <description>リード管理_入力</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>addmail/Lead_mail</template>
+        <template>addmail/Lead_create</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_edit</fullName>
+        <description>リード管理_編集</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/Lead_edit</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_review</fullName>
+        <description>リード管理_確認</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/Lead_review</template>
     </alerts>
     <alerts>
         <fullName>PV_mail</fullName>
+        <description>PV管理_入力</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/PV_create</template>
+    </alerts>
+    <alerts>
+        <fullName>PV_review</fullName>
         <description>PV管理_確認しました</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>addmail/PV_mail</template>
+        <template>addmail/PV_review</template>
     </alerts>
     <alerts>
-        <fullName>Tag_mail</fullName>
-        <description>タグ_確認しました</description>
+        <fullName>Tag_review</fullName>
+        <description>タグ確認</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>addmail/Tag_review</template>
     </alerts>
     <alerts>
-        <fullName>WEB_mail</fullName>
-        <description>WEBレポート_確認しました</description>
+        <fullName>WEB_report_create</fullName>
+        <description>WEBレポート作成</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/WEB_report_create</template>
+    </alerts>
+    <alerts>
+        <fullName>WEB_report_edit</fullName>
+        <description>WEBレポート変更</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/WEB_report_change</template>
+    </alerts>
+    <alerts>
+        <fullName>WEB_report_review</fullName>
+        <description>WEBレポート確認</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>addmail/WEB_report_review</template>
     </alerts>
     <alerts>
-        <fullName>WEB_report</fullName>
-        <description>WEBレポート変更</description>
+        <fullName>WEB_report_tenpu</fullName>
+        <description>WEBレポート添付</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>addmail/WEB_report_change</template>
+        <template>addmail/WEB_report_tenpu</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_boost</fullName>
+        <description>ブースト作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
     </alerts>
     <alerts>
         <fullName>menu_create_mail</fullName>
@@ -58,24 +129,168 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>addmail/menu_new</template>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_custom</fullName>
+        <description>カスタム作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_dmp</fullName>
+        <description>DMPレポーティング作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_nukizuri</fullName>
+        <description>抜刷作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_other</fullName>
+        <description>その他作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_questionnaire</fullName>
+        <description>アンケート作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_school</fullName>
+        <description>スクール作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_seminer</fullName>
+        <description>セミナー作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_web</fullName>
+        <description>WEB作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_web_other</fullName>
+        <description>WEBその他作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>menu_zassi</fullName>
+        <description>雑誌作成時</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/menu_create</template>
+    </alerts>
+    <alerts>
+        <fullName>nukizuri_tenpu</fullName>
+        <description>抜刷添付</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/nukizuri_tenpu</template>
     </alerts>
     <alerts>
         <fullName>seisaku_assign</fullName>
         <description>制作アサイン</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>addmail/seisaku_assign</template>
+    </alerts>
+    <alerts>
+        <fullName>tag_create</fullName>
+        <description>タグ作成</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/tag_create</template>
+    </alerts>
+    <alerts>
+        <fullName>tag_edit</fullName>
+        <description>タグ変更</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>addmail/tag_edit</template>
     </alerts>
     <alerts>
         <fullName>yuudouhenkou</fullName>
         <description>誘導量が変更された時</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>addmail/yuudouhenkou</template>
@@ -161,13 +376,32 @@ null )</formula>
         <operation>Literal</operation>
         <protected>false</protected>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>isCopy_true</fullName>
+        <field>ISCLONE__c</field>
+        <literalValue>1</literalValue>
+        <name>コピーチェック</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>コピー時項目null更新</fullName>
+        <actions>
+            <name>isCopy_true</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCLONE()</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
     <rules>
         <fullName>制作アサイン送信</fullName>
         <actions>
             <name>assign_update_true</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Menu__c.seisakuassign__c</field>
             <operation>equals</operation>

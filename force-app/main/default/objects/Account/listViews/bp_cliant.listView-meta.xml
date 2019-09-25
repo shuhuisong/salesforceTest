@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>bp_cliant</fullName>
+    <columns>user_id__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>kana__c</columns>
+    <columns>is_deleted__c</columns>
+    <columns>FlgAd__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>BP局クライアントデータ</label>
+    <sharedTo>
+        <role>BusinessPromotionDeptRole</role>
+    </sharedTo>
+</ListView>

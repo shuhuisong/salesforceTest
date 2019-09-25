@@ -6,11 +6,11 @@
     <masterLabel>メニューパス</masterLabel>
     <pathAssistantSteps>
         <info>&lt;p&gt;成約したがメニューや金額が具体的にきまっていないなど&lt;/p&gt;</info>
-        <picklistValueName>内定</picklistValueName>
+        <picklistValueName>内定・受注</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
         <info>&lt;p&gt;「あどまど」に取り込むデータ。請求書が発行されます。&lt;/p&gt;&lt;p&gt;本決まりでないときには内定を選んで下さい&lt;/p&gt;</info>
-        <picklistValueName>成約</picklistValueName>
+        <picklistValueName>成約・納品</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
         <info>&lt;p&gt;成約に7割くらいの確度の高いレベル&lt;/p&gt;</info>
